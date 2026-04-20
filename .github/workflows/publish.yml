@@ -14,9 +14,13 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    # Node 20 ランタイム廃止に先立ち、JS アクションを Node 24 で実行（peaceiris 等は未更新でも警告緩和）
+    # https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
