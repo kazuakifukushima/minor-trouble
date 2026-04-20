@@ -1,0 +1,53 @@
+# Quarto Website — 病棟マイナートラブル（内科一般・研修医向け）
+# 公開先: https://github.com/kazuakifukushima/minor-trouble
+project:
+  type: website
+  output-dir: _site
+
+lang: ja
+
+execute:
+  freeze: auto
+
+website:
+  title: "病棟マイナートラブル（内科一般）"
+  description: "研修医向けの病棟対応フローと参考文献（教育用・個別診療の代替ではありません）"
+  site-url: https://kazuakifukushima.github.io/minor-trouble/
+  repo-url: https://github.com/kazuakifukushima/minor-trouble
+  issue-url: https://github.com/kazuakifukushima/minor-trouble/issues
+  sidebar:
+    - title: "目次"
+      style: docked
+      contents:
+        - index.qmd
+        - section: "トピック"
+          contents:
+            - topics/overview.qmd
+            - topics/fever.qmd
+            - topics/hypoxia.qmd
+            - topics/constipation.qmd
+            - topics/diarrhea.qmd
+            - topics/insomnia.qmd
+            - topics/agitation.qmd
+  navbar:
+    left:
+      - text: "ホーム"
+        file: index.qmd
+    right:
+      - icon: github
+        href: https://github.com/kazuakifukushima/minor-trouble
+        aria-label: GitHub
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    link-citations: true
+    citations-hover: true
+    footnotes-hover: true
+    code-copy: true
+    lang: ja
+
+bibliography: references.bib

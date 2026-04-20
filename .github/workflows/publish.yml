@@ -1,0 +1,25 @@
+# 単独リポジトリ（minor-trouble）のルートに本フォルダの内容を置いたときに使用されます。
+# medical-intelligence-lab 内のサブフォルダのまま運用する場合は、親リポジトリ側のワークフローを使ってください。
+name: Publish Quarto site
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
