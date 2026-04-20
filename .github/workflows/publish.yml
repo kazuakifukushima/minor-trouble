@@ -3,6 +3,7 @@
 name: Publish Quarto site
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -19,7 +20,11 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      # Quarto 公式: gh-pages へ push するために GITHUB_TOKEN が必要
+      # https://quarto.org/docs/publishing/github-pages.html
       - name: Render and publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

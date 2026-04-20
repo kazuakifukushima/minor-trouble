@@ -29,8 +29,9 @@ quarto render
 
 公開 URL: **`https://kazuakifukushima.github.io/minor-trouble/`**（Pages 設定後）
 
-1. リポジトリ **Settings → Pages** で、**Build and deployment** の Source を **`gh-pages` ブランチ**、フォルダ **`/ (root)`** に設定します。  
-2. **`main` へ push** すると、`.github/workflows/publish.yml` が Quarto をレンダリングし、`gh-pages` へデプロイします。
+1. リポジトリ **Settings → Actions → General → Workflow permissions** で **Read and write permissions** を有効にします（`gh-pages` への push に必要）。  
+2. **Settings → Pages** で、**Build and deployment** の Source を **`gh-pages` ブランチ**、フォルダ **`/ (root)`** に設定します。  
+3. **`main` へ push**（または Actions の **Publish Quarto site** を手動実行）すると、`.github/workflows/publish.yml` が Quarto をレンダリングし、`gh-pages` へデプロイします。
 
 ## 文献の更新方針
 
