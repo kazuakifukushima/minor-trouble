@@ -1,5 +1,6 @@
-# 単独リポジトリ（minor-trouble）のルートに本フォルダの内容を置いたときに使用されます。
-# medical-intelligence-lab 内のサブフォルダのまま運用する場合は、親リポジトリ側のワークフローを使ってください。
+# 単独リポジトリ（minor-trouble）のルートに本プロジェクトを置いたときに使用します。
+# quarto publish gh-pages は「リモートに gh-pages がある」前提で失敗しやすいため、
+# render 後に peaceiris/actions-gh-pages で _site を載せ替えます。
 name: Publish Quarto site
 
 on:
@@ -16,38 +17,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # quarto publish gh-pages はリモートに gh-pages ブランチが無いと失敗するため、初回のみ空ブランチを作る
-      # https://quarto.org/docs/publishing/github-pages.html#source-branch
-      - name: Ensure gh-pages branch exists on origin
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git fetch origin
-          if git ls-remote --heads origin gh-pages | grep -q refs/heads/gh-pages; then
-            echo "Remote gh-pages already exists."
-          else
-            echo "Creating orphan gh-pages branch (one-time init for Quarto)."
-            git checkout --orphan gh-pages
-            git rm -rf . 2>/dev/null || true
-            git commit --allow-empty -m "chore: initialize gh-pages for Quarto"
-            git push origin gh-pages
-            git checkout main
-          fi
+      - name: Render site
+        run: quarto render
 
-      # Quarto 公式: gh-pages へ push するために GITHUB_TOKEN が必要
-      # https://quarto.org/docs/publishing/github-pages.html
-      - name: Render and publish to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
+      # GitHub Pages が Jekyll 処理しないようにする（Quarto の静的HTML用）
+      - name: Add .nojekyll
+        run: touch _site/.nojekyll
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
