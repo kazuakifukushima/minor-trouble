@@ -1,0 +1,561 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "病棟マイナートラブル（内科一般）",
+    "section": "",
+    "text": "内科一般病棟で頻出する事象（発熱、低酸素、便秘、下痢、不眠、不穏など）について、再現可能なフローチャート（Mermaid）とページ末の参考文献をそろえ、研修医が\n\n当直・日勤で即座に手順を辿れること\n\n出典に戻って自分でファクトチェックできること\n\nを優先して整理します。\n\n\n\n\n\n\n警告免責・利用上の注意\n\n\n\n\n本資料は医学教育・情報提供を目的としたものであり、個別の医学的助言や診療行為の代替ではありません。\n\n実臨床では、患者背景・併用薬・施設プロトコール・法規制（処方権・制約薬など）に従ってください。\n\n記載は作成時点のエビデンス・ガイドラインに基づくたたき台です。重要な推奨は原典（一次情報）で確認し、更新してください。",
+    "crumbs": [
+      "ホーム",
+      "病棟マイナートラブル（内科一般）"
+    ]
+  },
+  {
+    "objectID": "index.html#このサイトの目的",
+    "href": "index.html#このサイトの目的",
+    "title": "病棟マイナートラブル（内科一般）",
+    "section": "",
+    "text": "内科一般病棟で頻出する事象（発熱、低酸素、便秘、下痢、不眠、不穏など）について、再現可能なフローチャート（Mermaid）とページ末の参考文献をそろえ、研修医が\n\n当直・日勤で即座に手順を辿れること\n\n出典に戻って自分でファクトチェックできること\n\nを優先して整理します。\n\n\n\n\n\n\n警告免責・利用上の注意\n\n\n\n\n本資料は医学教育・情報提供を目的としたものであり、個別の医学的助言や診療行為の代替ではありません。\n\n実臨床では、患者背景・併用薬・施設プロトコール・法規制（処方権・制約薬など）に従ってください。\n\n記載は作成時点のエビデンス・ガイドラインに基づくたたき台です。重要な推奨は原典（一次情報）で確認し、更新してください。",
+    "crumbs": [
+      "ホーム",
+      "病棟マイナートラブル（内科一般）"
+    ]
+  },
+  {
+    "objectID": "index.html#スコープv1",
+    "href": "index.html#スコープv1",
+    "title": "病棟マイナートラブル（内科一般）",
+    "section": "2 スコープ（v1）",
+    "text": "2 スコープ（v1）\n\n対象: 内科一般病棟を想定（外科・周術期特化の分岐は後続バージョンで拡張予定）。\n\n非対象: 個別症例の診断確定、薬剤の具体的用量処方、法的文書。",
+    "crumbs": [
+      "ホーム",
+      "病棟マイナートラブル（内科一般）"
+    ]
+  },
+  {
+    "objectID": "index.html#使い方",
+    "href": "index.html#使い方",
+    "title": "病棟マイナートラブル（内科一般）",
+    "section": "3 使い方",
+    "text": "3 使い方\n\n各章は Problem → Red flags → 初期評価 → 初期対応 → 再評価/エスカレーション の順で読めるようにしています。\n\n図はソースが .qmd に埋め込まれているため、GitHub 上の差分でも追跡できます。\n\n章末の 参考文献 から DOI / ガイドラインへ遡って検証してください。",
+    "crumbs": [
+      "ホーム",
+      "病棟マイナートラブル（内科一般）"
+    ]
+  },
+  {
+    "objectID": "index.html#ローカルでのビルド",
+    "href": "index.html#ローカルでのビルド",
+    "title": "病棟マイナートラブル（内科一般）",
+    "section": "4 ローカルでのビルド",
+    "text": "4 ローカルでのビルド\nREADME.md を参照してください。",
+    "crumbs": [
+      "ホーム",
+      "病棟マイナートラブル（内科一般）"
+    ]
+  },
+  {
+    "objectID": "topics/insomnia.html",
+    "href": "topics/insomnia.html",
+    "title": "不眠（内科病棟）",
+    "section": "",
+    "text": "睡眠薬への依存を増やさず、環境要因と可逆原因を先に整理しつつ、必要時に最小限の薬物療法へ進むための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不眠（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/insomnia.html#目的",
+    "href": "topics/insomnia.html#目的",
+    "title": "不眠（内科病棟）",
+    "section": "",
+    "text": "睡眠薬への依存を増やさず、環境要因と可逆原因を先に整理しつつ、必要時に最小限の薬物療法へ進むための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不眠（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/insomnia.html#初期フロー内科一般",
+    "href": "topics/insomnia.html#初期フロー内科一般",
+    "title": "不眠（内科病棟）",
+    "section": "2 初期フロー（内科一般）",
+    "text": "2 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[不眠の訴え] --&gt; B[疼痛/呼吸苦/尿意&lt;br/&gt;不穏・離人などの混同]\n  B --&gt; C[環境: 光/音/温度/中断]\n  C --&gt; D{原因が軽減可能?}\n  D --&gt;|Yes| E[非薬物介入を優先]\n  D --&gt;|No| F[カフェイン/ニコチン離脱&lt;br/&gt;昼寝の調整など]\n  E --&gt; G{それでも困難?}\n  F --&gt; G\n  G --&gt;|Yes| H[短時間作用型の選択的使用&lt;br/&gt;高齢は低用量開始・監視]\n  G --&gt;|No| I[経過観察と記録]",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不眠（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/insomnia.html#実践メモたたき台",
+    "href": "topics/insomnia.html#実践メモたたき台",
+    "title": "不眠（内科病棟）",
+    "section": "3 実践メモ（たたき台）",
+    "text": "3 実践メモ（たたき台）\n\n入院患者の不眠に対する非薬物介入の系統的レビューが参考になります (Siriwardena ほか 2018年)。\n\nベンゾジアゼピン受容体作動薬は転倒・認知機能への影響が問題になりやすく、可能なら回避/短期/低用量が現場の安全文化と整合しやすいです（施設・高齢医学の指針に従う）。\n\n基礎疾患: 睡眠時無呼吸、鬱病、離人など「不眠」以外の主訴が混在することがあります。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不眠（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/insomnia.html#エスカレーションの目安例",
+    "href": "topics/insomnia.html#エスカレーションの目安例",
+    "title": "不眠（内科病棟）",
+    "section": "4 エスカレーションの目安（例）",
+    "text": "4 エスカレーションの目安（例）\n\n自傷他害リスク、激越、譫妄疑い → 不穏・譫妄の章と連携。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不眠（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/insomnia.html#参考文献本章",
+    "href": "topics/insomnia.html#参考文献本章",
+    "title": "不眠（内科病棟）",
+    "section": "5 参考文献（本章）",
+    "text": "5 参考文献（本章）\n\n\nSiriwardena, A Niroshan, Zaeem Qureshi, Stuart Collier, ほか. 2018年. 「Non-pharmacological interventions for insomnia in hospitalised patients: A systematic review and meta-analysis」. Sleep Medicine Reviews 42: 195–205. https://doi.org/10.1016/j.smrv.2018.08.001.",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不眠（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/constipation.html",
+    "href": "topics/constipation.html",
+    "title": "便秘（内科病棟）",
+    "section": "",
+    "text": "急性期病棟での便秘に対し、腸管閉塞などの外科的緊急を見逃さず、多剤併用下での安全な段階的介入へつなぐための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "便秘（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/constipation.html#目的",
+    "href": "topics/constipation.html#目的",
+    "title": "便秘（内科病棟）",
+    "section": "",
+    "text": "急性期病棟での便秘に対し、腸管閉塞などの外科的緊急を見逃さず、多剤併用下での安全な段階的介入へつなぐための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "便秘（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/constipation.html#初期フロー内科一般",
+    "href": "topics/constipation.html#初期フロー内科一般",
+    "title": "便秘（内科病棟）",
+    "section": "2 初期フロー（内科一般）",
+    "text": "2 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[便秘/便通低下] --&gt; B[腹痛・嘔吐・腹部膨満&lt;br/&gt;ガス排便停止の有無]\n  B --&gt; C{閉塞疑いの赤旗?}\n  C --&gt;|Yes| S[外科/画像の早い相談]\n  C --&gt;|No| D[原因: オピオイド/抗コリン&lt;br/&gt;脱水/活動低下など]\n  D --&gt; E[非薬物: 水分・活動・食事&lt;br/&gt;トイレ習慣]\n  E --&gt; F[浸透性・潤滑など段階的追加&lt;br/&gt;処方権・禁忌に従う]\n  F --&gt; G{改善?}\n  G --&gt;|No| H[灌腸/強い下剤は方針確認&lt;br/&gt;高齢は電解質に注意]\n  G --&gt;|Yes| I[再発予防と記録]\n  H --&gt; S",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "便秘（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/constipation.html#実践メモたたき台",
+    "href": "topics/constipation.html#実践メモたたき台",
+    "title": "便秘（内科病棟）",
+    "section": "3 実践メモ（たたき台）",
+    "text": "3 実践メモ（たたき台）\n\n急性期病棟の便秘は、非薬物・薬物介入の系統的レビューが参考になります (Oh ほか 2019年)。ただし研究対象と施設実情は一致しないことが多く、エビデンスは「方向性」として扱います。\n\n閉塞・穿孔・缺血性腸炎など、便秘様症状で現れる緊急疾患を除外できない場合は、下剤の盲進を避けます。\n\n電解質: 腎機能低下患者では浸透性下剤等で異常が出やすいです。併用利尿薬・ACE阻害薬等も含め全体像で見ます。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "便秘（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/constipation.html#エスカレーションの目安例",
+    "href": "topics/constipation.html#エスカレーションの目安例",
+    "title": "便秘（内科病棟）",
+    "section": "4 エスカレーションの目安（例）",
+    "text": "4 エスカレーションの目安（例）\n\n持続嘔吐、反跳痛、腹膜刺激、血便、敗血症疑い。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "便秘（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/constipation.html#参考文献本章",
+    "href": "topics/constipation.html#参考文献本章",
+    "title": "便秘（内科病棟）",
+    "section": "5 参考文献（本章）",
+    "text": "5 参考文献（本章）\n\n\nOh, Hyun E, Ji Young Kim, Kyung Sik Park, ほか. 2019年. 「Bowel management for constipation in adults in the acute hospital setting: A systematic review」. International Journal of Nursing Studies 99: 103375. https://doi.org/10.1016/j.ijnurstu.2019.103375.",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "便秘（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/hypoxia.html",
+    "href": "topics/hypoxia.html",
+    "title": "低酸素・呼吸苦（内科病棟）",
+    "section": "",
+    "text": "酸素化低下の迅速な安定化と、原因の切り分け（肺 vs 非肺・急性 vs 慢性）を同時に進めるための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "低酸素・呼吸苦（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/hypoxia.html#目的",
+    "href": "topics/hypoxia.html#目的",
+    "title": "低酸素・呼吸苦（内科病棟）",
+    "section": "",
+    "text": "酸素化低下の迅速な安定化と、原因の切り分け（肺 vs 非肺・急性 vs 慢性）を同時に進めるための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "低酸素・呼吸苦（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/hypoxia.html#初期フロー内科一般",
+    "href": "topics/hypoxia.html#初期フロー内科一般",
+    "title": "低酸素・呼吸苦（内科病棟）",
+    "section": "2 初期フロー（内科一般）",
+    "text": "2 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[SpO2低下/呼吸苦] --&gt; B[気道確保と体位&lt;br/&gt;意識・呼吸数・努力呼吸]\n  B --&gt; C{生命危機レベル?}\n  C --&gt;|Yes| E[救急/ICU/上級医&lt;br/&gt;高流量/非侵襲等は方針に従う]\n  C --&gt;|No| D[酸素投与で目標SpO2へ&lt;br/&gt;可能なら原因操作]\n  D --&gt; F{改善持続?}\n  F --&gt;|No| G[画像/血液ガス/心不全評価&lt;br/&gt;肺塞栓リスクの整理]\n  F --&gt;|Yes| H[酸素必要量の推移観察&lt;br/&gt;離脱計画]\n  G --&gt; E",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "低酸素・呼吸苦（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/hypoxia.html#実践メモたたき台",
+    "href": "topics/hypoxia.html#実践メモたたき台",
+    "title": "低酸素・呼吸苦（内科病棟）",
+    "section": "3 実践メモ（たたき台）",
+    "text": "3 実践メモ（たたき台）\n\n酸素目標: 「高めが良い」一辺倒ではなく、過剰酸素の害も議論されています。ICU/高リスク集団のエビデンス整理としてメタ解析が参照されます (Chu ほか 2018年)。病棟では施設方針・患者背景（COPD など）に合わせて目標を個別化します。\n\nSpO₂の罠: 低灌注、爪・色素、動きで測定が不安定になり得ます。臨床像と整合しないときは再測定と別部位を検討します。\n\n急性肺塞栓・心不全: 呼吸苦単独でも鑑別に入れ、適応がある場合のみD-dimer 等の解釈を行います（過検査・誤追跡にも注意）。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "低酸素・呼吸苦（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/hypoxia.html#エスカレーションの目安例",
+    "href": "topics/hypoxia.html#エスカレーションの目安例",
+    "title": "低酸素・呼吸苦（内科病棟）",
+    "section": "4 エスカレーションの目安（例）",
+    "text": "4 エスカレーションの目安（例）\n\n会話不能、補助筋、意識低下、酸素要求の急激増加、持続的低血圧など。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "低酸素・呼吸苦（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/hypoxia.html#参考文献本章",
+    "href": "topics/hypoxia.html#参考文献本章",
+    "title": "低酸素・呼吸苦（内科病棟）",
+    "section": "5 参考文献（本章）",
+    "text": "5 参考文献（本章）\n\n\nChu, Derek K, Lisa H-Y Kim, Paul J Young, ほか. 2018年. 「Oxygen targets for patients in the intensive care unit: A systematic review and meta-analysis」. The Lancet 391 (10131): 1696–704. https://doi.org/10.1016/S0140-6736(18)30409-1.",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "低酸素・呼吸苦（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/overview.html",
+    "href": "topics/overview.html",
+    "title": "はじめに：共通の進め方（内科一般）",
+    "section": "",
+    "text": "個別トピック（発熱・低酸素など）に入る前に、病棟対応で毎回共通する枠組みを固定します。ここは「正解ルート」ではなく、情報収集と安全マージンの取り方のテンプレです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "はじめに：共通の進め方（内科一般）"
+    ]
+  },
+  {
+    "objectID": "topics/overview.html#この章の位置づけ",
+    "href": "topics/overview.html#この章の位置づけ",
+    "title": "はじめに：共通の進め方（内科一般）",
+    "section": "",
+    "text": "個別トピック（発熱・低酸素など）に入る前に、病棟対応で毎回共通する枠組みを固定します。ここは「正解ルート」ではなく、情報収集と安全マージンの取り方のテンプレです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "はじめに：共通の進め方（内科一般）"
+    ]
+  },
+  {
+    "objectID": "topics/overview.html#共通フロー初遭遇再評価",
+    "href": "topics/overview.html#共通フロー初遭遇再評価",
+    "title": "はじめに：共通の進め方（内科一般）",
+    "section": "2 共通フロー（初遭遇〜再評価）",
+    "text": "2 共通フロー（初遭遇〜再評価）\n\n\n\n\n\nflowchart TD\n  A[事象の認知: 看護/検査/自覚] --&gt; B[重症度の一次判断&lt;br/&gt;意識・バイタル・呼吸作業]\n  B --&gt; C{Red flagあり?}\n  C --&gt;|Yes| R[上級医/ICU/救急連携&lt;br/&gt;検査・モニタ拡大]\n  C --&gt;|No| D[背景把握: 既往・原因疾患&lt;br/&gt;新規処方・処置・輸液]\n  D --&gt; E[初期介入&lt;br/&gt;安全域で最小有効]\n  E --&gt; F[短い間隔で再評価&lt;br/&gt;例: 30〜120分]\n  F --&gt; G{改善?}\n  G --&gt;|Yes| H[経過観察と説明&lt;br/&gt;フォロー計画]\n  G --&gt;|No / 悪化| R",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "はじめに：共通の進め方（内科一般）"
+    ]
+  },
+  {
+    "objectID": "topics/overview.html#red-flags例すぐに相談レベルを上げる",
+    "href": "topics/overview.html#red-flags例すぐに相談レベルを上げる",
+    "title": "はじめに：共通の進め方（内科一般）",
+    "section": "3 Red flags（例：すぐに相談レベルを上げる）",
+    "text": "3 Red flags（例：すぐに相談レベルを上げる）\n施設・チームにより定義は変動しますが、内科一般では次を強いトリガーとして扱いがちです（網羅ではありません）。\n\n呼吸: SpO₂が目標を満たさない、呼吸数の増加、会話不能・補助筋、意識低下\n\n循環: 収縮期血圧の著明低下、頻脈に伴う灌注不良、尿量低下\n\n神経: 新規の意識障害、けいれん、局所神経所見\n\n感染/炎症: 明らかな敗血症疑い、迅速進行の全身状態悪化 (Rhodes ほか 2021年)\n\n出血/脱水: 大量下血、血圧低下を伴う脱水",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "はじめに：共通の進め方（内科一般）"
+    ]
+  },
+  {
+    "objectID": "topics/overview.html#記録後から検証できるように",
+    "href": "topics/overview.html#記録後から検証できるように",
+    "title": "はじめに：共通の進め方（内科一般）",
+    "section": "4 記録（後から検証できるように）",
+    "text": "4 記録（後から検証できるように）\n\n何を見て（所見・数値）何を考え（鑑別の幅）何をしたか（介入と理由）を短く残すと、当直引き継ぎと教育的振り返りが楽になります。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "はじめに：共通の進め方（内科一般）"
+    ]
+  },
+  {
+    "objectID": "topics/overview.html#参考文献本章",
+    "href": "topics/overview.html#参考文献本章",
+    "title": "はじめに：共通の進め方（内科一般）",
+    "section": "5 参考文献（本章）",
+    "text": "5 参考文献（本章）\n敗血症診療の枠組み（重症例の背景理解）として SSC 2021 を参照しています (Rhodes ほか 2021年)。\n\n\nRhodes, Andrew, Laura E Evans, Waleed Alhazzani, ほか. 2021年. 「Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021」. Intensive Care Medicine 47: 1181–247. https://doi.org/10.1007/s00134-021-06506-y.",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "はじめに：共通の進め方（内科一般）"
+    ]
+  },
+  {
+    "objectID": "topics/agitation.html",
+    "href": "topics/agitation.html",
+    "title": "不穏・譫妄（内科病棟）",
+    "section": "",
+    "text": "可逆原因の探索と非薬物介入を優先しつつ、患者・職員の安全が脅かされる場合に限って薬物的鎮静の階段を検討するための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不穏・譫妄（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/agitation.html#目的",
+    "href": "topics/agitation.html#目的",
+    "title": "不穏・譫妄（内科病棟）",
+    "section": "",
+    "text": "可逆原因の探索と非薬物介入を優先しつつ、患者・職員の安全が脅かされる場合に限って薬物的鎮静の階段を検討するための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不穏・譫妄（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/agitation.html#初期フロー内科一般",
+    "href": "topics/agitation.html#初期フロー内科一般",
+    "title": "不穏・譫妄（内科病棟）",
+    "section": "2 初期フロー（内科一般）",
+    "text": "2 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[不穏・行動異常] --&gt; B[安全: 環境/人員/除去物]\n  B --&gt; C[可逆原因: 感染/代謝/疼痛&lt;br/&gt;便秘/尿貯留/薬剤]\n  C --&gt; D{譫妄の臨床像?}\n  D --&gt;|Yes| E[HELP的介入の要素&lt;br/&gt;昼夜リズム・早期離床など]\n  D --&gt;|不確実| E\n  E --&gt; F{安全上の危険が高い?}\n  F --&gt;|Yes| G[最小限の薬物は方針に従い&lt;br/&gt;呼吸抑制に注意]\n  F --&gt;|No| H[頻回再評価と家族協働]",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不穏・譫妄（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/agitation.html#実践メモたたき台",
+    "href": "topics/agitation.html#実践メモたたき台",
+    "title": "不穏・譫妄（内科病棟）",
+    "section": "3 実践メモ（たたき台）",
+    "text": "3 実践メモ（たたき台）\n\n譫妄は予後不良因子と結びつくことが多く、予防・早期認知が重要です (Inouye ほか 2014年)。\n\nガイドラインでは、原因特定と非薬物介入が中核になりやすく、抗精神病薬のルーティン使用は慎重に扱われます (National Institute for Health and Care Excellence 2023年)。\n\nベンゾジアゼピンは譫妄に対して一般に第一選択になりにくいケースがあります（アルコール離脱など例外の整理は上級医と）。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不穏・譫妄（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/agitation.html#エスカレーションの目安例",
+    "href": "topics/agitation.html#エスカレーションの目安例",
+    "title": "不穏・譫妄（内科病棟）",
+    "section": "4 エスカレーションの目安（例）",
+    "text": "4 エスカレーションの目安（例）\n\n自傷他害の切迫、抜管リスク、職員が介入困難、基礎疾患の急変疑い。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不穏・譫妄（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/agitation.html#参考文献本章",
+    "href": "topics/agitation.html#参考文献本章",
+    "title": "不穏・譫妄（内科病棟）",
+    "section": "5 参考文献（本章）",
+    "text": "5 参考文献（本章）\n\n\nInouye, Sharon K, Rudi G J Westendorp, と Jane S Saczynski. 2014年. 「Delirium in elderly people」. The Lancet 383 (9920): 911–22. https://doi.org/10.1016/S0140-6736(13)60688-1.\n\n\nNational Institute for Health and Care Excellence. 2023年. Delirium: prevention, diagnosis and management. NICE guideline NG163 (updated). https://www.nice.org.uk/guidance/ng163.",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "不穏・譫妄（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/diarrhea.html",
+    "href": "topics/diarrhea.html",
+    "title": "下痢（内科病棟）",
+    "section": "",
+    "text": "感染（特に院内感染対象）と非感染性下痢の切り分け、脱水評価、不必要な検査・隔離のバランスを取るための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "下痢（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/diarrhea.html#目的",
+    "href": "topics/diarrhea.html#目的",
+    "title": "下痢（内科病棟）",
+    "section": "",
+    "text": "感染（特に院内感染対象）と非感染性下痢の切り分け、脱水評価、不必要な検査・隔離のバランスを取るための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "下痢（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/diarrhea.html#初期フロー内科一般",
+    "href": "topics/diarrhea.html#初期フロー内科一般",
+    "title": "下痢（内科病棟）",
+    "section": "2 初期フロー（内科一般）",
+    "text": "2 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[下痢の認知] --&gt; B[循環・腎・意識&lt;br/&gt;脱水の重症度]\n  B --&gt; C{血便/発熱/腹痛強い&lt;br/&gt;敗血症疑い?}\n  C --&gt;|Yes| S[培養・画像・早期相談&lt;br/&gt;隔離は施設方針]\n  C --&gt;|No| D[抗菌薬・制酸薬の新規変更&lt;br/&gt;EN/滲出液などの文脈]\n  D --&gt; E{抗菌薬関連/偽膜性腸炎疑い?}\n  E --&gt;|疑い高い| F[検査はガイドラインに沿って&lt;br/&gt;治療は専門方針]\n  E --&gt;|低い| G[支持療法と原因除去&lt;br/&gt;経過観察]",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "下痢（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/diarrhea.html#実践メモたたき台",
+    "href": "topics/diarrhea.html#実践メモたたき台",
+    "title": "下痢（内科病棟）",
+    "section": "3 実践メモ（たたき台）",
+    "text": "3 実践メモ（たたき台）\n\nClostridioides difficile の診療は更新があり、検査の解釈・治療はガイドラインに強く依存します (McDonald ほか 2018年)。\n\n検査前のポイント: 便検体の適切な採取、検査のタイミング、偽陽性/定植の解釈は施設マイクロと協議します。\n\n隔離: 院内手順は施設差が大きいです。医療者の判断に加え感染管理チームの基準へ合わせます。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "下痢（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/diarrhea.html#エスカレーションの目安例",
+    "href": "topics/diarrhea.html#エスカレーションの目安例",
+    "title": "下痢（内科病棟）",
+    "section": "4 エスカレーションの目安（例）",
+    "text": "4 エスカレーションの目安（例）\n\n低血圧、乳酸上昇、腹膜刺激、イレウス像、全般的悪化。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "下痢（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/diarrhea.html#参考文献本章",
+    "href": "topics/diarrhea.html#参考文献本章",
+    "title": "下痢（内科病棟）",
+    "section": "5 参考文献（本章）",
+    "text": "5 参考文献（本章）\n\n\nMcDonald, L Clifford, Dale N Gerding, Stuart Johnson, ほか. 2018年. 「Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA)」. Clinical Infectious Diseases 66 (7): e1–48. https://doi.org/10.1093/cid/ciy108.",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "下痢（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/fever.html",
+    "href": "topics/fever.html",
+    "title": "発熱（内科病棟）",
+    "section": "",
+    "text": "新規発熱・熱型の変化に対して、感染症の有無と重症度を見落とさず、不要な抗菌薬開始も避けるための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "発熱（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/fever.html#目的",
+    "href": "topics/fever.html#目的",
+    "title": "発熱（内科病棟）",
+    "section": "",
+    "text": "新規発熱・熱型の変化に対して、感染症の有無と重症度を見落とさず、不要な抗菌薬開始も避けるための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "発熱（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/fever.html#初期フロー内科一般",
+    "href": "topics/fever.html#初期フロー内科一般",
+    "title": "発熱（内科病棟）",
+    "section": "2 初期フロー（内科一般）",
+    "text": "2 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[発熱の認知] --&gt; B[ABCと意識評価]\n  B --&gt; C{灌注不良/低血圧&lt;br/&gt;または意識障害?}\n  C --&gt;|Yes| S[敗血症経路&lt;br/&gt;上級医・拡大評価]\n  C --&gt;|No| D[タイミング: 術後/輸血/薬剤&lt;br/&gt;器械挿入後など]\n  D --&gt; E[焦点評価: 呼吸器/尿路/創/静脈路&lt;br/&gt;腹部/中枢]\n  E --&gt; F{明らかな細菌感染の臨床像?}\n  F --&gt;|Yes| G[培養・画像は原則取得&lt;br/&gt;抗菌薬は方針を相談]\n  F --&gt;|No| H[観察と非感染原因の整理&lt;br/&gt;脱水/血栓/炎症疾患など]\n  S --&gt; G",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "発熱（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/fever.html#実践メモたたき台",
+    "href": "topics/fever.html#実践メモたたき台",
+    "title": "発熱（内科病棟）",
+    "section": "3 実践メモ（たたき台）",
+    "text": "3 実践メモ（たたき台）\n\n定義の揺れ: 「発熱」の閾値は施設・測定部位で異なります。重要なのはトレンドと文脈です。\n\n敗血症の枠組み: 全身性炎症反応の評価は感度・特異度のトレードオフがあります。臨床疑いがあれば過小評価を避ける方向で相談・モニタ拡大を検討します (Singer ほか 2016年; Rhodes ほか 2021年)。\n\n培養: 抗菌薬投与前の血液培養は原則価値が高いですが、緊急時は治療遅延を避ける優先順位づけが必要です（チーム方針）。\n\n非感染性発熱: 薬剤熱、深部静脈血栓塞栓症、自己免疫疾患の増悪なども併走し得ます（鑑別は章内では列挙しきれません）。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "発熱（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/fever.html#エスカレーションの目安例",
+    "href": "topics/fever.html#エスカレーションの目安例",
+    "title": "発熱（内科病棟）",
+    "section": "4 エスカレーションの目安（例）",
+    "text": "4 エスカレーションの目安（例）\n\n収縮期血圧低下、乳酸上昇、尿量低下、意識変容、呼吸不全進行など、臓器不全が疑われる場合は早めに上級医・ICU相談を検討します (Rhodes ほか 2021年)。",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "発熱（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/fever.html#参考文献本章",
+    "href": "topics/fever.html#参考文献本章",
+    "title": "発熱（内科病棟）",
+    "section": "5 参考文献（本章）",
+    "text": "5 参考文献（本章）\n\n\nRhodes, Andrew, Laura E Evans, Waleed Alhazzani, ほか. 2021年. 「Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021」. Intensive Care Medicine 47: 1181–247. https://doi.org/10.1007/s00134-021-06506-y.\n\n\nSinger, Manu, Clifford S Deutschman, Christopher W Seymour, ほか. 2016年. 「The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)」. JAMA 315 (8): 801–10. https://doi.org/10.1001/jama.2016.0287.",
+    "crumbs": [
+      "ホーム",
+      "トピック",
+      "発熱（内科病棟）"
+    ]
+  }
+]
