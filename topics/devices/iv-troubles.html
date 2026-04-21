@@ -89,6 +89,9 @@ div.csl-indent {
     "search-label": "サーチ"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -411,8 +414,14 @@ div.csl-indent {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#想定トピック" id="toc-想定トピック" class="nav-link active" data-scroll-target="#想定トピック"><span class="header-section-number">1</span> 想定トピック</a></li>
-  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">2</span> 参考文献（本章）</a></li>
+  <li><a href="#目的" id="toc-目的" class="nav-link active" data-scroll-target="#目的"><span class="header-section-number">1</span> 目的</a></li>
+  <li><a href="#見逃してはいけないred-flags" id="toc-見逃してはいけないred-flags" class="nav-link" data-scroll-target="#見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</a></li>
+  <li><a href="#よくある原因" id="toc-よくある原因" class="nav-link" data-scroll-target="#よくある原因"><span class="header-section-number">3</span> よくある原因</a></li>
+  <li><a href="#初期フロー内科一般" id="toc-初期フロー内科一般" class="nav-link" data-scroll-target="#初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</a></li>
+  <li><a href="#初期評価のポイント" id="toc-初期評価のポイント" class="nav-link" data-scroll-target="#初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</a></li>
+  <li><a href="#初期対応の考え方" id="toc-初期対応の考え方" class="nav-link" data-scroll-target="#初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</a></li>
+  <li><a href="#再評価コンサルト基準例" id="toc-再評価コンサルト基準例" class="nav-link" data-scroll-target="#再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</a></li>
+  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/kazuakifukushima/minor-trouble/issues" class="toc-action"><i class="bi bi-github"></i>問題を報告</a></li></ul></div></nav>
     </div>
@@ -422,7 +431,6 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../topics/devices/iv-troubles.html">④ デバイス関連</a></li><li class="breadcrumb-item"><a href="../../topics/devices/iv-troubles.html">末梢静脈路・点滴トラブル（内科病棟）</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">末梢静脈路・点滴トラブル（内科病棟）</h1>
-<p class="subtitle lead">ドラフト</p>
 </div>
 
 
@@ -439,33 +447,84 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">警告</span>執筆中
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>プレースホルダ</strong>です。浸潤・外漏・閉塞・疼痛の鑑別と、<strong>感染徴候</strong>（蜂窩織炎疑い等）の早期認知を中心に、感染管理の視点で執筆予定です。</p>
-</div>
-</div>
-<section id="想定トピック" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="想定トピック"><span class="header-section-number">1</span> 想定トピック</h2>
+<section id="目的" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="目的"><span class="header-section-number">1</span> 目的</h2>
+<p><strong>浸潤・外漏・閉塞</strong>を見分け、<strong>感染徴候</strong>（静脈炎/蜂窩織炎疑い）を見逃さないためのフローです。抜去・再挿入は<strong>施設手順</strong>に従ってください。</p>
+</section>
+<section id="見逃してはいけないred-flags" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</h2>
 <ul>
-<li>閉塞・滴下不良のチェック<br>
+<li><strong>発熱・発赤・腫脹・疼痛</strong>が<strong>静脈路走行</strong>に沿う（静脈炎/感染疑い）<br>
 </li>
-<li>漏れ・浸潤の評価<br>
+<li><strong>薬剤外漏</strong>で<strong>組織壊死リスク</strong>がある薬（施設の外漏プロトコール）<br>
 </li>
-<li>抜去・再挿入の判断（施設手順）<br>
-</li>
-<li>カテーテル関連血流感染を疑うタイミング</li>
+<li><strong>全身感染症</strong>を疑う所見（敗血症）</li>
 </ul>
 </section>
-<section id="参考文献本章" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">2</span> 参考文献（本章）</h2>
+<section id="よくある原因" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="よくある原因"><span class="header-section-number">3</span> よくある原因</h2>
+<ul>
+<li><strong>浸潤/外漏</strong>: 固定不良、関節部、高圧輸液、高浸透圧薬<br>
+</li>
+<li><strong>閉塞</strong>: 血栓、フィルター、折れ曲がり、ヘパリンロックの問題など<br>
+</li>
+<li><strong>疼痛</strong>: 静脈炎、薬剤刺激、位置不良</li>
+</ul>
+</section>
+<section id="初期フロー内科一般" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[点滴トラブル] --&gt; B[滴下は止まっているか&lt;br/&gt;患者訴え・部位視診]
+  B --&gt; C{浸潤・腫脹・発赤?}
+  C --&gt;|Yes| D[止液・部位挙上&lt;br/&gt;施設の外漏手順]
+  C --&gt;|No| E[ルート確認: 折れ/スライダー&lt;br/&gt;フィルター/ポンプ]
+  E --&gt; F{改善?}
+  F --&gt;|No| G[代替ルート確保&lt;br/&gt;必要なら上級医]
+  D --&gt; H{感染徴候?}
+  H --&gt;|Yes| U[感染症/上級医相談]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="初期評価のポイント" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</h2>
+<ul>
+<li><strong>穿刺部位</strong>（発赤範囲、熱感、疼痛、硬結）。<br>
+</li>
+<li><strong>どの薬</strong>が走っているか（外漏リスク）。<br>
+</li>
+<li><strong>挿入日時</strong>、<strong>交換予定</strong>（施設ルール）。</li>
+</ul>
+</section>
+<section id="初期対応の考え方" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</h2>
+<ul>
+<li><strong>浸潤</strong>が進行する場合は<strong>止液</strong>が先。外漏薬剤ごとの拮抗・解毒は<strong>プロトコール</strong>参照。<br>
+</li>
+<li><strong>単純な閉塞</strong>でも<strong>強い加圧</strong>で解除を試みない（安全優先）。<br>
+</li>
+<li><strong>カテーテル関連感染</strong>が疑われたら、<strong>培養・抜去タイミング</strong>は方針相談。</li>
+</ul>
+</section>
+<section id="再評価コンサルト基準例" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</h2>
+<ul>
+<li><strong>発熱</strong>、<strong>発赤の急速拡大</strong>、<strong>菌血症</strong>を疑う所見<br>
+</li>
+<li><strong>外漏</strong>で<strong>皮膚壊死</strong>が疑われる</li>
+</ul>
+<p>関連: <a href="../../topics/devices/cvc.html">中心静脈カテーテル</a> / <a href="../../topics/vitals/fever.html">発熱</a></p>
+</section>
+<section id="参考文献本章" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</h2>
 <div id="refs" role="list">
 
 </div>

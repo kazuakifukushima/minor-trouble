@@ -89,6 +89,9 @@ div.csl-indent {
     "search-label": "サーチ"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -411,14 +414,14 @@ div.csl-indent {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#統一テンプレ予定" id="toc-統一テンプレ予定" class="nav-link active" data-scroll-target="#統一テンプレ予定"><span class="header-section-number">1</span> 統一テンプレ（予定）</a>
-  <ul class="collapse">
-  <li><a href="#緊急性評価" id="toc-緊急性評価" class="nav-link" data-scroll-target="#緊急性評価"><span class="header-section-number">1.1</span> 緊急性評価</a></li>
-  <li><a href="#原因鑑別絞り込み" id="toc-原因鑑別絞り込み" class="nav-link" data-scroll-target="#原因鑑別絞り込み"><span class="header-section-number">1.2</span> 原因鑑別（絞り込み）</a></li>
-  <li><a href="#初期対応" id="toc-初期対応" class="nav-link" data-scroll-target="#初期対応"><span class="header-section-number">1.3</span> 初期対応</a></li>
-  <li><a href="#コンサルト基準" id="toc-コンサルト基準" class="nav-link" data-scroll-target="#コンサルト基準"><span class="header-section-number">1.4</span> コンサルト基準</a></li>
-  </ul></li>
-  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">2</span> 参考文献（本章）</a></li>
+  <li><a href="#目的" id="toc-目的" class="nav-link active" data-scroll-target="#目的"><span class="header-section-number">1</span> 目的</a></li>
+  <li><a href="#見逃してはいけないred-flags" id="toc-見逃してはいけないred-flags" class="nav-link" data-scroll-target="#見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</a></li>
+  <li><a href="#よくある原因超簡略" id="toc-よくある原因超簡略" class="nav-link" data-scroll-target="#よくある原因超簡略"><span class="header-section-number">3</span> よくある原因（超簡略）</a></li>
+  <li><a href="#初期フロー内科一般" id="toc-初期フロー内科一般" class="nav-link" data-scroll-target="#初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</a></li>
+  <li><a href="#初期評価のポイント" id="toc-初期評価のポイント" class="nav-link" data-scroll-target="#初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</a></li>
+  <li><a href="#初期対応の考え方" id="toc-初期対応の考え方" class="nav-link" data-scroll-target="#初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</a></li>
+  <li><a href="#再評価コンサルト基準例" id="toc-再評価コンサルト基準例" class="nav-link" data-scroll-target="#再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</a></li>
+  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/kazuakifukushima/minor-trouble/issues" class="toc-action"><i class="bi bi-github"></i>問題を報告</a></li></ul></div></nav>
     </div>
@@ -428,7 +431,6 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../topics/labs/sodium.html">⑤ 検査値異常</a></li><li class="breadcrumb-item"><a href="../../topics/labs/sodium.html">低Na血症・高Na血症（内科病棟）</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">低Na血症・高Na血症（内科病棟）</h1>
-<p class="subtitle lead">ドラフト</p>
 </div>
 
 
@@ -445,36 +447,85 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">警告</span>執筆中
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>プレースホルダ</strong>です。「緊急性評価 → 鑑別を絞る → 初期対応 → コンサルト基準」の型で執筆予定です。電解質補正は<strong>速度・中枢症状</strong>でリスクが大きいため、断定処方は扱いません。</p>
-</div>
-</div>
-<section id="統一テンプレ予定" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="統一テンプレ予定"><span class="header-section-number">1</span> 統一テンプレ（予定）</h2>
-<section id="緊急性評価" class="level3" data-number="1.1">
-<h3 data-number="1.1" class="anchored" data-anchor-id="緊急性評価"><span class="header-section-number">1.1</span> 緊急性評価</h3>
+<section id="目的" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="目的"><span class="header-section-number">1</span> 目的</h2>
+<p>電解質補正は<strong>速度・中枢症状</strong>でリスクが大きいため、ここでは<strong>緊急度の切り分け</strong>と<strong>「何を相談するか」</strong>に絞ります。具体の補正速度・製剤選択は<strong>施設プロトコールと専門医</strong>に従ってください。</p>
 </section>
-<section id="原因鑑別絞り込み" class="level3" data-number="1.2">
-<h3 data-number="1.2" class="anchored" data-anchor-id="原因鑑別絞り込み"><span class="header-section-number">1.2</span> 原因鑑別（絞り込み）</h3>
+<section id="見逃してはいけないred-flags" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</h2>
+<ul>
+<li><strong>意識障害、けいれん</strong>（低Naでも高Naでも）<br>
+</li>
+<li><strong>急激なNa変化</strong>（過去24–48時間の推移が取れると安全）<br>
+</li>
+<li><strong>脳腫瘍・肝硬変・腎不全</strong>など、<strong>脳の適応が崩れやすい</strong>背景<br>
+</li>
+<li><strong>利尿薬、ADH作用薬、大量輸液</strong>など<strong>医原性</strong>の文脈</li>
+</ul>
 </section>
-<section id="初期対応" class="level3" data-number="1.3">
-<h3 data-number="1.3" class="anchored" data-anchor-id="初期対応"><span class="header-section-number">1.3</span> 初期対応</h3>
+<section id="よくある原因超簡略" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="よくある原因超簡略"><span class="header-section-number">3</span> よくある原因（超簡略）</h2>
+<p><strong>低Na</strong>: SIADH、利尿薬、有效循環血漿量低下（心不全/肝硬変/腎症候群）、原発性多飲、腎障害など（鑑別は尿電解質・臨床像で整理）</p>
+<p><strong>高Na</strong>: 水分欠乏（経口摂取不良、尿崩症様、浸透圧利尿、高血糖など）、過剰Na負荷（輸液・経腸）</p>
 </section>
-<section id="コンサルト基準" class="level3" data-number="1.4">
-<h3 data-number="1.4" class="anchored" data-anchor-id="コンサルト基準"><span class="header-section-number">1.4</span> コンサルト基準</h3>
+<section id="初期フロー内科一般" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[異常Naの報告] --&gt; B[症状: 意識・けいれん&lt;br/&gt;水分バランス・体重]
+  B --&gt; C{中枢症状あり?}
+  C --&gt;|Yes| U[上級医/ICU・専門&lt;br/&gt;補正はルール厳守]
+  C --&gt;|No| D[急激な変化か?&lt;br/&gt;採血時刻・輸液を確認]
+  D --&gt; E[原因カテゴリを仮説&lt;br/&gt;尿検査・浸透圧は施設で]
+  E --&gt; F{補正が必要か判断困難?}
+  F --&gt;|Yes| U
+  F --&gt;|No| G[原因治療優先&lt;br/&gt;再採血時刻を決める]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
+<section id="初期評価のポイント" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</h2>
+<ul>
+<li><strong>急性 vs 慢性</strong>の推定（可能なら過去データ）。急性変化ほど<strong>急速補正のリスク</strong>が問題になりやすいです。<br>
+</li>
+<li><strong>輸液・経腸栄養・利尿薬</strong>の変更タイミング。<br>
+</li>
+<li><strong>血糖</strong>（偽性低Na/高Naの解釈）。<br>
+</li>
+<li><strong>尿量</strong>、<strong>体重</strong>、<strong>浮肿/脱水</strong>の身体所見。</li>
+</ul>
 </section>
-<section id="参考文献本章" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">2</span> 参考文献（本章）</h2>
+<section id="初期対応の考え方" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</h2>
+<ul>
+<li><strong>低Naで中枢症状</strong>がある場合の管理は<strong>高度な専門判断</strong>が伴います。内科病棟単独での強い電解質補正は避け、<strong>指示系統</strong>を確認します。<br>
+</li>
+<li><strong>高Na</strong>では<strong>自由水不足</strong>の補正が中心になりやすいですが、<strong>補正速度</strong>が脳に影響します。<br>
+</li>
+<li>「数値だけ」で漫然と輸液を変えず、<strong>再採血の間隔</strong>を決めます。</li>
+</ul>
+</section>
+<section id="再評価コンサルト基準例" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</h2>
+<ul>
+<li>意識障害、けいれん、<strong>Naの急速変化</strong><br>
+</li>
+<li><strong>補正後に神経症状が出現・悪化</strong>（ODS などのリスクを考える）<br>
+</li>
+<li>腎・内分泌・心不全が絡む<strong>難例</strong></li>
+</ul>
+<p>関連: <a href="../../topics/labs/creatinine.html">Cr上昇</a> / <a href="../../topics/symptoms/nausea-vomiting.html">悪心・嘔吐</a></p>
+</section>
+<section id="参考文献本章" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</h2>
 <div id="refs" role="list">
 
 </div>

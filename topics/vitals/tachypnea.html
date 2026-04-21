@@ -89,6 +89,9 @@ div.csl-indent {
     "search-label": "サーチ"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -412,16 +415,13 @@ div.csl-indent {
    
   <ul>
   <li><a href="#目的" id="toc-目的" class="nav-link active" data-scroll-target="#目的"><span class="header-section-number">1</span> 目的</a></li>
-  <li><a href="#関連" id="toc-関連" class="nav-link" data-scroll-target="#関連"><span class="header-section-number">2</span> 関連</a></li>
-  <li><a href="#統一テンプレ予定" id="toc-統一テンプレ予定" class="nav-link" data-scroll-target="#統一テンプレ予定"><span class="header-section-number">3</span> 統一テンプレ（予定）</a>
-  <ul class="collapse">
-  <li><a href="#red-flags" id="toc-red-flags" class="nav-link" data-scroll-target="#red-flags"><span class="header-section-number">3.1</span> Red flags</a></li>
-  <li><a href="#よくある原因" id="toc-よくある原因" class="nav-link" data-scroll-target="#よくある原因"><span class="header-section-number">3.2</span> よくある原因</a></li>
-  <li><a href="#初期評価" id="toc-初期評価" class="nav-link" data-scroll-target="#初期評価"><span class="header-section-number">3.3</span> 初期評価</a></li>
-  <li><a href="#初期対応" id="toc-初期対応" class="nav-link" data-scroll-target="#初期対応"><span class="header-section-number">3.4</span> 初期対応</a></li>
-  <li><a href="#再評価コンサルト基準" id="toc-再評価コンサルト基準" class="nav-link" data-scroll-target="#再評価コンサルト基準"><span class="header-section-number">3.5</span> 再評価・コンサルト基準</a></li>
-  </ul></li>
-  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">4</span> 参考文献（本章）</a></li>
+  <li><a href="#見逃してはいけないred-flags" id="toc-見逃してはいけないred-flags" class="nav-link" data-scroll-target="#見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</a></li>
+  <li><a href="#よくある原因病棟で頻出の枠" id="toc-よくある原因病棟で頻出の枠" class="nav-link" data-scroll-target="#よくある原因病棟で頻出の枠"><span class="header-section-number">3</span> よくある原因（病棟で頻出の「枠」）</a></li>
+  <li><a href="#初期フロー内科一般" id="toc-初期フロー内科一般" class="nav-link" data-scroll-target="#初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</a></li>
+  <li><a href="#初期評価のポイント" id="toc-初期評価のポイント" class="nav-link" data-scroll-target="#初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</a></li>
+  <li><a href="#初期対応の考え方" id="toc-初期対応の考え方" class="nav-link" data-scroll-target="#初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</a></li>
+  <li><a href="#再評価コンサルト基準例" id="toc-再評価コンサルト基準例" class="nav-link" data-scroll-target="#再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</a></li>
+  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/kazuakifukushima/minor-trouble/issues" class="toc-action"><i class="bi bi-github"></i>問題を報告</a></li></ul></div></nav>
     </div>
@@ -431,7 +431,6 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../topics/vitals/fever.html">② バイタル異常</a></li><li class="breadcrumb-item"><a href="../../topics/vitals/tachypnea.html">呼吸数増加（内科病棟）</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">呼吸数増加（内科病棟）</h1>
-<p class="subtitle lead">ドラフト</p>
 </div>
 
 
@@ -448,51 +447,117 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
+<section id="目的" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="目的"><span class="header-section-number">1</span> 目的</h2>
+<p><strong>呼吸数（RR）増加</strong>は、SpO₂がまだ保たれていても<strong>早期悪化のシグナル</strong>になり得ます。低酸素・代謝性アシドーシス・感染・疼痛などを<strong>束ねて評価</strong>するためのフローです。</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">警告</span>執筆中
+<span class="screen-reader-only">ノート</span>関連ページ
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>本ページは構成案に基づく<strong>プレースホルダ</strong>です。SpO₂低下・代謝性アシドーシスなどとセットで評価します。</p>
+<p>努力呼吸・SpO₂低下の評価は <strong><a href="../../topics/vitals/hypoxia.html">低酸素・呼吸苦</a></strong> とセットで読むと整理しやすいです。</p>
 </div>
 </div>
-<section id="目的" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="目的"><span class="header-section-number">1</span> 目的</h2>
-<p><strong>呼吸数増加単独</strong>でも見逃しやすい重症化を早期に拾う（執筆予定）。低酸素章（SpO₂低下・呼吸苦）と相互参照予定。</p>
 </section>
-<section id="関連" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="関連"><span class="header-section-number">2</span> 関連</h2>
+<section id="見逃してはいけないred-flags" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</h2>
 <ul>
-<li>酸素化・呼吸作業: <a href="../../topics/vitals/hypoxia.html">低酸素・呼吸苦</a></li>
+<li><strong>呼吸作業の増大</strong>（補助筋、会話不能、座位呼吸、発汗）<br>
+</li>
+<li><strong>SpO₂低下</strong>（測定条件を確認したうえで）<br>
+</li>
+<li><strong>意識変容</strong>、<strong>血圧低下</strong>（敗血症・呼吸不全進行）<br>
+</li>
+<li><strong>急性胸痛</strong>（肺塞栓、気胸、ACS などの文脈）<br>
+</li>
+<li><strong>急激なRR上昇</strong>（数時間以内の明確な変化）</li>
 </ul>
 </section>
-<section id="統一テンプレ予定" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="統一テンプレ予定"><span class="header-section-number">3</span> 統一テンプレ（予定）</h2>
-<section id="red-flags" class="level3" data-number="3.1">
-<h3 data-number="3.1" class="anchored" data-anchor-id="red-flags"><span class="header-section-number">3.1</span> Red flags</h3>
+<section id="よくある原因病棟で頻出の枠" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="よくある原因病棟で頻出の枠"><span class="header-section-number">3</span> よくある原因（病棟で頻出の「枠」）</h2>
+<ul>
+<li><strong>肺/胸郭</strong>: 肺炎、肺水腫、喘息/COPD増悪、肺塞栓疑い、胸水、誤嚥<br>
+</li>
+<li><strong>全身性</strong>: 敗血症、代謝性アシドーシス（腎不全、DKA など）、貧血、発熱<br>
+</li>
+<li><strong>疼痛・不安</strong>: 術後疼痛、不安、発作性過換気（診断は除外）<br>
+</li>
+<li><strong>酸素・装置</strong>: 酸素流量不足、鼻カニュラ位置、装置トラブル（別章）</li>
+</ul>
+<p>呼吸数は<strong>敗血症の臨床指標</strong>の一つとしても扱われますが、感度・特異度は単独では限界があります<span class="citation" data-cites="singer2016sepsis3 rhodes2021ssc">(<a href="#ref-singer2016sepsis3" role="doc-biblioref"><span class="nocase">Singer ほか</span> 2016年</a>; <a href="#ref-rhodes2021ssc" role="doc-biblioref"><span class="nocase">Rhodes ほか</span> 2021年</a>)</span>。</p>
 </section>
-<section id="よくある原因" class="level3" data-number="3.2">
-<h3 data-number="3.2" class="anchored" data-anchor-id="よくある原因"><span class="header-section-number">3.2</span> よくある原因</h3>
+<section id="初期フロー内科一般" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[呼吸数増加の認知] --&gt; B[SpO2・意識・血圧&lt;br/&gt;呼吸作業の目視]
+  B --&gt; C{生命危機レベル?}
+  C --&gt;|Yes| U[上級医/ICU・救急&lt;br/&gt;酸素/モニタ拡大]
+  C --&gt;|No| D[測定・装置を再確認&lt;br/&gt;発熱/疼痛/輸液の文脈]
+  D --&gt; E{肺所見・感染焦点は?}
+  E --&gt;|疑わしい| F[画像/検査は方針に沿って&lt;br/&gt;酸素化と再評価]
+  E --&gt;|不明| G[血液ガス/乳酸等&lt;br/&gt;施設に応じて]
+  F --&gt; H{改善?}
+  G --&gt; H
+  H --&gt;|No| U
+  H --&gt;|Yes| I[原因治療と経過観察]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
-<section id="初期評価" class="level3" data-number="3.3">
-<h3 data-number="3.3" class="anchored" data-anchor-id="初期評価"><span class="header-section-number">3.3</span> 初期評価</h3>
+<section id="初期評価のポイント" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</h2>
+<ul>
+<li><strong>ABCDE</strong>で固定し、<strong>単に「数値だけ」で安心しない</strong>。<br>
+</li>
+<li><strong>SpO₂正常でもRR単独で悪化</strong>し得るため、トレンドと全身所見を見ます。<br>
+</li>
+<li><strong>動脈血ガス</strong>は、代謝性アシドーシスや換気不全の評価に有用なことがあります（適応は文脈依存）。</li>
+</ul>
 </section>
-<section id="初期対応" class="level3" data-number="3.4">
-<h3 data-number="3.4" class="anchored" data-anchor-id="初期対応"><span class="header-section-number">3.4</span> 初期対応</h3>
+<section id="初期対応の考え方" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</h2>
+<ul>
+<li><strong>酸素化</strong>が必要なら早めに。目標SpO₂は患者背景に合わせます（COPD 等）<span class="citation" data-cites="o2018oxygen">(<a href="#ref-o2018oxygen" role="doc-biblioref"><span class="nocase">Chu ほか</span> 2018年</a>)</span>。<br>
+</li>
+<li><strong>敗血症疑い</strong>が強い場合は、感染源評価と全身管理の優先順位づけが必要です<span class="citation" data-cites="rhodes2021ssc">(<a href="#ref-rhodes2021ssc" role="doc-biblioref"><span class="nocase">Rhodes ほか</span> 2021年</a>)</span>。<br>
+</li>
+<li><strong>肺塞栓・気胸</strong>を疑う所見があれば、<strong>過度な様子見</strong>を避けルールに沿って相談します。</li>
+</ul>
 </section>
-<section id="再評価コンサルト基準" class="level3" data-number="3.5">
-<h3 data-number="3.5" class="anchored" data-anchor-id="再評価コンサルト基準"><span class="header-section-number">3.5</span> 再評価・コンサルト基準</h3>
+<section id="再評価コンサルト基準例" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</h2>
+<ul>
+<li>RR悪化が<strong>持続</strong>、または<strong>酸素需要・乳酸・意識・血圧</strong>が連動して悪化<br>
+</li>
+<li><strong>診断が決まらないまま全身状態が落ちる</strong></li>
+</ul>
+<p>関連: <a href="../../topics/vitals/hypoxia.html">低酸素・呼吸苦</a> / <a href="../../topics/vitals/fever.html">発熱</a> / <a href="../../topics/vitals/hypotension.html">血圧低下</a></p>
 </section>
-</section>
-<section id="参考文献本章" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">4</span> 参考文献（本章）</h2>
-<div id="refs" role="list">
-
+<section id="参考文献本章" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-o2018oxygen" class="csl-entry" role="listitem">
+<span class="nocase">Chu, Derek K, Lisa H-Y Kim, Paul J Young, ほか</span>. 2018年. <span>「Oxygen targets for patients in the intensive care unit: A systematic review and meta-analysis」</span>. <em>The Lancet</em> 391 (10131): 1696–704. <a href="https://doi.org/10.1016/S0140-6736(18)30409-1">https://doi.org/10.1016/S0140-6736(18)30409-1</a>.
+</div>
+<div id="ref-rhodes2021ssc" class="csl-entry" role="listitem">
+<span class="nocase">Rhodes, Andrew, Laura E Evans, Waleed Alhazzani, ほか</span>. 2021年. <span>「Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021」</span>. <em>Intensive Care Medicine</em> 47: 1181–247. <a href="https://doi.org/10.1007/s00134-021-06506-y">https://doi.org/10.1007/s00134-021-06506-y</a>.
+</div>
+<div id="ref-singer2016sepsis3" class="csl-entry" role="listitem">
+<span class="nocase">Singer, Manu, Clifford S Deutschman, Christopher W Seymour, ほか</span>. 2016年. <span>「The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)」</span>. <em>JAMA</em> 315 (8): 801–10. <a href="https://doi.org/10.1001/jama.2016.0287">https://doi.org/10.1001/jama.2016.0287</a>.
+</div>
 </div>
 
 

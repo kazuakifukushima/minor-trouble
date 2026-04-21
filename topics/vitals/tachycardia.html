@@ -89,6 +89,9 @@ div.csl-indent {
     "search-label": "サーチ"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -412,15 +415,13 @@ div.csl-indent {
    
   <ul>
   <li><a href="#目的" id="toc-目的" class="nav-link active" data-scroll-target="#目的"><span class="header-section-number">1</span> 目的</a></li>
-  <li><a href="#統一テンプレ予定" id="toc-統一テンプレ予定" class="nav-link" data-scroll-target="#統一テンプレ予定"><span class="header-section-number">2</span> 統一テンプレ（予定）</a>
-  <ul class="collapse">
-  <li><a href="#red-flags" id="toc-red-flags" class="nav-link" data-scroll-target="#red-flags"><span class="header-section-number">2.1</span> Red flags</a></li>
-  <li><a href="#よくある原因" id="toc-よくある原因" class="nav-link" data-scroll-target="#よくある原因"><span class="header-section-number">2.2</span> よくある原因</a></li>
-  <li><a href="#初期評価" id="toc-初期評価" class="nav-link" data-scroll-target="#初期評価"><span class="header-section-number">2.3</span> 初期評価</a></li>
-  <li><a href="#初期対応" id="toc-初期対応" class="nav-link" data-scroll-target="#初期対応"><span class="header-section-number">2.4</span> 初期対応</a></li>
-  <li><a href="#再評価コンサルト基準" id="toc-再評価コンサルト基準" class="nav-link" data-scroll-target="#再評価コンサルト基準"><span class="header-section-number">2.5</span> 再評価・コンサルト基準</a></li>
-  </ul></li>
-  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">3</span> 参考文献（本章）</a></li>
+  <li><a href="#見逃してはいけないred-flags" id="toc-見逃してはいけないred-flags" class="nav-link" data-scroll-target="#見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</a></li>
+  <li><a href="#よくある原因" id="toc-よくある原因" class="nav-link" data-scroll-target="#よくある原因"><span class="header-section-number">3</span> よくある原因</a></li>
+  <li><a href="#初期フロー内科一般" id="toc-初期フロー内科一般" class="nav-link" data-scroll-target="#初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</a></li>
+  <li><a href="#初期評価のポイント" id="toc-初期評価のポイント" class="nav-link" data-scroll-target="#初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</a></li>
+  <li><a href="#初期対応の考え方" id="toc-初期対応の考え方" class="nav-link" data-scroll-target="#初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</a></li>
+  <li><a href="#再評価コンサルト基準例" id="toc-再評価コンサルト基準例" class="nav-link" data-scroll-target="#再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</a></li>
+  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/kazuakifukushima/minor-trouble/issues" class="toc-action"><i class="bi bi-github"></i>問題を報告</a></li></ul></div></nav>
     </div>
@@ -430,7 +431,6 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../topics/vitals/fever.html">② バイタル異常</a></li><li class="breadcrumb-item"><a href="../../topics/vitals/tachycardia.html">頻脈（内科病棟）</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">頻脈（内科病棟）</h1>
-<p class="subtitle lead">ドラフト</p>
 </div>
 
 
@@ -447,50 +447,95 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">警告</span>執筆中
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>本ページは構成案に基づく<strong>プレースホルダ</strong>です。不整脈の危険度分類は原典・施設コンサルト方針に従ってください。</p>
-</div>
-</div>
 <section id="目的" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="目的"><span class="header-section-number">1</span> 目的</h2>
-<p><strong>血行動態に伴う頻脈</strong>と、<strong>原疾患に依らない頻脈</strong>を切り分ける初期フロー（執筆予定）。</p>
+<p><strong>頻脈の危険度</strong>を切り分け、<strong>不安定な不整脈</strong>と<strong>二次性洞性頻脈</strong>を混同しないための初期フローです。<strong>抗不整脈薬の選択はリスクが大きい</strong>ため、迷ったら<strong>12誘導ECGを取ったうえで上級医</strong>に相談してください。</p>
 </section>
-<section id="統一テンプレ予定" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="統一テンプレ予定"><span class="header-section-number">2</span> 統一テンプレ（予定）</h2>
-<section id="red-flags" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="red-flags"><span class="header-section-number">2.1</span> Red flags</h3>
-<p>（執筆予定：胸痛、失神、血圧低下、意識障害、急性心不全兆候）</p>
+<section id="見逃してはいけないred-flags" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</h2>
+<ul>
+<li><strong>血圧低下、意識障害、急性肺水腫、缺血性胸痛、けいれん</strong>など<strong>血流動態不安定</strong>の所見<br>
+</li>
+<li><strong>広いQRSの頻拍</strong>（心室頻拍と診断が曖昧なSVTの区別が難しい）<br>
+</li>
+<li><strong>不整脈に伴うショック</strong>疑い<br>
+</li>
+<li><strong>高カリウム血症</strong>など<strong>代謝・電解質</strong>が関与し得る文脈（腎不全、投薬）</li>
+</ul>
 </section>
-<section id="よくある原因" class="level3" data-number="2.2">
-<h3 data-number="2.2" class="anchored" data-anchor-id="よくある原因"><span class="header-section-number">2.2</span> よくある原因</h3>
-<p>（執筆予定：発熱・疼痛・低酸素・貧血・甲状腺・不整脈・薬剤など）</p>
+<section id="よくある原因" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="よくある原因"><span class="header-section-number">3</span> よくある原因</h2>
+<ul>
+<li><strong>洞性頻脈</strong>: 発熱、疼痛、低酸素、低血圧/低容量、貧血、不安、甲状腺機能亢進、薬剤（気管支拡張薬など）、肺塞栓疑いなど<br>
+</li>
+<li><strong>上室性頻拍</strong>: 心房細動/粗動 with 急速心室応答、AVNRT、AVRT など<span class="citation" data-cites="page2016svt">(<a href="#ref-page2016svt" role="doc-biblioref"><span class="nocase">Page ほか</span> 2016年</a>)</span><br>
+</li>
+<li><strong>心室頻拍</strong>: 器質心疾患、電解質異常、薬剤、Brugada などの素因（鑑別は専門領域）</li>
+</ul>
 </section>
-<section id="初期評価" class="level3" data-number="2.3">
-<h3 data-number="2.3" class="anchored" data-anchor-id="初期評価"><span class="header-section-number">2.3</span> 初期評価</h3>
-<p>（執筆予定：12誘導ECG、電解質、文脈）</p>
+<section id="初期フロー内科一般" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[頻脈の認知] --&gt; B[血流動態は安定?]
+  B --&gt;|不安定| U[救急/上級医&lt;br/&gt;モニタ・12誘導ECG]
+  B --&gt;|安定| C[12誘導ECG取得&lt;br/&gt;電解質・文脈確認]
+  C --&gt; D{QRSは広い?}
+  D --&gt;|広い| W[VT vs SVT+差伝導の鑑別&lt;br/&gt;早めに上級医/心電図専門]
+  D --&gt;|狭い| N[洞性 vs SVT vs AF等&lt;br/&gt;頻脈の型を整理]
+  N --&gt; E{二次性頻脈が説明できる?}
+  E --&gt;|Yes| F[原因治療: 疼痛/低酸素/&lt;br/&gt;発熱/容量など]
+  E --&gt;|いいえ/不明| U
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
-<section id="初期対応" class="level3" data-number="2.4">
-<h3 data-number="2.4" class="anchored" data-anchor-id="初期対応"><span class="header-section-number">2.4</span> 初期対応</h3>
-<p>（執筆予定：原因指向。不整脈治療は適応とリスクが大きい）</p>
+<section id="初期評価のポイント" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</h2>
+<ul>
+<li><strong>まず血流動態</strong>（意識、血圧、尿量、肺うっ血、胸痛）。<br>
+</li>
+<li><strong>12誘導ECG</strong>が最優先の情報源になりやすいです。<br>
+</li>
+<li><strong>新規不整脈</strong>か、<strong>既知の心房細動の増悪</strong>かで対応が変わります。<br>
+</li>
+<li><strong>電解質</strong>（特にK、Mg）、<strong>腎機能</strong>、<strong>QT延長リスクの薬</strong>を確認します。</li>
+</ul>
 </section>
-<section id="再評価コンサルト基準" class="level3" data-number="2.5">
-<h3 data-number="2.5" class="anchored" data-anchor-id="再評価コンサルト基準"><span class="header-section-number">2.5</span> 再評価・コンサルト基準</h3>
-<p>（執筆予定）</p>
+<section id="初期対応の考え方" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</h2>
+<ul>
+<li><strong>不安定な不整脈</strong>は、内科病棟単独での長期マネジメントより<strong>救命・連携</strong>が優先です。<br>
+</li>
+<li><strong>安定した上室性頻拍</strong>の急性治療（迷走神経刺激、薬物、電気的除細動の適応）はガイドラインと施設手順に強く依存します<span class="citation" data-cites="page2016svt">(<a href="#ref-page2016svt" role="doc-biblioref"><span class="nocase">Page ほか</span> 2016年</a>)</span>。<strong>研修医単独での新規抗不整脈薬開始</strong>は避け、指示系統を確認します。<br>
+</li>
+<li><strong>洞性頻脈</strong>では、不整脈そのものより<strong>原因</strong>（感染、低酸素、低容量、PE疑いなど）を優先します。</li>
+</ul>
 </section>
+<section id="再評価コンサルト基準例" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</h2>
+<ul>
+<li>広いQRS頻拍、または診断が確定できない頻拍<br>
+</li>
+<li>頻拍に伴う<strong>低血圧・意識障害・肺水腫・胸痛</strong><br>
+</li>
+<li><strong>電気的除細動/緊急カルジオバージョン</strong>が頭に浮かぶ状態</li>
+</ul>
+<p>関連: <a href="../../topics/vitals/hypotension.html">血圧低下</a> / <a href="../../topics/vitals/hypoxia.html">低酸素・呼吸苦</a> / <a href="../../topics/vitals/fever.html">発熱</a></p>
 </section>
-<section id="参考文献本章" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">3</span> 参考文献（本章）</h2>
-<div id="refs" role="list">
-
+<section id="参考文献本章" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-page2016svt" class="csl-entry" role="listitem">
+<span class="nocase">Page, Richard L, José A Joglar, Mary A Caldwell, ほか</span>. 2016年. <span>「2015 ACC/AHA/HRS Guideline for the Management of Adult Patients With Supraventricular Tachycardia: Executive Summary」</span>. <em>Heart Rhythm</em> 13 (4): e136–72. <a href="https://doi.org/10.1016/j.hrthm.2015.09.010">https://doi.org/10.1016/j.hrthm.2015.09.010</a>.
+</div>
 </div>
 
 

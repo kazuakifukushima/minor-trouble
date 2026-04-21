@@ -90,11 +90,35 @@
     ]
   },
   {
+    "objectID": "topics/vitals/fever.html#見逃してはいけないred-flags",
+    "href": "topics/vitals/fever.html#見逃してはいけないred-flags",
+    "title": "発熱（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n意識障害、低血圧/頻脈など灌注不良\n\n呼吸不全（SpO₂低下、呼吸数増加、努力呼吸）\n\n急激な全身状態悪化（数時間スケールの明確な悪化）\n\n免疫不全（中性粒細胞減少、高用量ステロイド、移植後など）— 見かけの軽症でも拡大評価が必要になりやすい\n\n髄膜炎/敗血症を疑う所見（項部硬直、不穏、焦点神経所見など）",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "発熱（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/fever.html#よくある原因病棟での枠",
+    "href": "topics/vitals/fever.html#よくある原因病棟での枠",
+    "title": "発熱（内科病棟）",
+    "section": "3 よくある原因（病棟での「枠」）",
+    "text": "3 よくある原因（病棟での「枠」）\n\n感染: 呼吸器、尿路、創部/深部軟部組織、静脈路関連、腹腔内、中枢など\n\n非感染: 薬剤熱、深部静脈血栓塞栓症、自己免疫疾患の増悪、悪性腫瘍関連、輸血反応など（鑑別は文脈依存）",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "発熱（内科病棟）"
+    ]
+  },
+  {
     "objectID": "topics/vitals/fever.html#初期フロー内科一般",
     "href": "topics/vitals/fever.html#初期フロー内科一般",
     "title": "発熱（内科病棟）",
-    "section": "2 初期フロー（内科一般）",
-    "text": "2 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[発熱の認知] --&gt; B[ABCと意識評価]\n  B --&gt; C{灌注不良/低血圧&lt;br/&gt;または意識障害?}\n  C --&gt;|Yes| S[敗血症経路&lt;br/&gt;上級医・拡大評価]\n  C --&gt;|No| D[タイミング: 術後/輸血/薬剤&lt;br/&gt;器械挿入後など]\n  D --&gt; E[焦点評価: 呼吸器/尿路/創/静脈路&lt;br/&gt;腹部/中枢]\n  E --&gt; F{明らかな細菌感染の臨床像?}\n  F --&gt;|Yes| G[培養・画像は原則取得&lt;br/&gt;抗菌薬は方針を相談]\n  F --&gt;|No| H[観察と非感染原因の整理&lt;br/&gt;脱水/血栓/炎症疾患など]\n  S --&gt; G",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[発熱の認知] --&gt; B[ABCと意識評価]\n  B --&gt; C{灌注不良/低血圧&lt;br/&gt;または意識障害?}\n  C --&gt;|Yes| S[敗血症経路&lt;br/&gt;上級医・拡大評価]\n  C --&gt;|No| D[タイミング: 術後/輸血/薬剤&lt;br/&gt;器械挿入後など]\n  D --&gt; E[焦点評価: 呼吸器/尿路/創/静脈路&lt;br/&gt;腹部/中枢]\n  E --&gt; F{明らかな細菌感染の臨床像?}\n  F --&gt;|Yes| G[培養・画像は原則取得&lt;br/&gt;抗菌薬は方針を相談]\n  F --&gt;|No| H[観察と非感染原因の整理&lt;br/&gt;脱水/血栓/炎症疾患など]\n  S --&gt; G",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -102,11 +126,11 @@
     ]
   },
   {
-    "objectID": "topics/vitals/fever.html#実践メモたたき台",
-    "href": "topics/vitals/fever.html#実践メモたたき台",
+    "objectID": "topics/vitals/fever.html#初期評価のポイント",
+    "href": "topics/vitals/fever.html#初期評価のポイント",
     "title": "発熱（内科病棟）",
-    "section": "3 実践メモ（たたき台）",
-    "text": "3 実践メモ（たたき台）\n\n定義の揺れ: 「発熱」の閾値は施設・測定部位で異なります。重要なのはトレンドと文脈です。\n\n敗血症の枠組み: 全身性炎症反応の評価は感度・特異度のトレードオフがあります。臨床疑いがあれば過小評価を避ける方向で相談・モニタ拡大を検討します (Singer ほか 2016年; Rhodes ほか 2021年)。\n\n培養: 抗菌薬投与前の血液培養は原則価値が高いですが、緊急時は治療遅延を避ける優先順位づけが必要です（チーム方針）。\n\n非感染性発熱: 薬剤熱、深部静脈血栓塞栓症、自己免疫疾患の増悪なども併走し得ます（鑑別は章内では列挙しきれません）。",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\nバイタルと意識を先に固定（「熱だけ」で安心しない）。\n\n焦点診察: 肺音、創、静脈挿入部位、腹部、尿管/カテーテル、口腔嚥下リスクなど。\n\n検査: 血培、尿検査、炎症マーカー、画像は臨床像と施設方針で選択。\n\n敗血症の概念整理: 定義・スコアは診療の補助であり、臨床総合判断が中心です(Singer ほか 2016年; Rhodes ほか 2021年)。",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -114,11 +138,23 @@
     ]
   },
   {
-    "objectID": "topics/vitals/fever.html#エスカレーションの目安例",
-    "href": "topics/vitals/fever.html#エスカレーションの目安例",
+    "objectID": "topics/vitals/fever.html#初期対応の考え方",
+    "href": "topics/vitals/fever.html#初期対応の考え方",
     "title": "発熱（内科病棟）",
-    "section": "4 エスカレーションの目安（例）",
-    "text": "4 エスカレーションの目安（例）\n\n収縮期血圧低下、乳酸上昇、尿量低下、意識変容、呼吸不全進行など、臓器不全が疑われる場合は早めに上級医・ICU相談を検討します (Rhodes ほか 2021年)。",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n抗菌薬は「熱があるから」より感染の臨床像・宿主・重症度で判断します。開始・選択・投与経路は上級医/感染症/施設プロトコールが安全です。\n\n培養: 抗菌薬投与前の血液培養は原則価値が高いですが、治療遅延とのトレードオフがあります(Rhodes ほか 2021年)。\n\n解熱薬は疼痛・不快のコントロールとしての側面もありますが、診断を遅らせないようにします。",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "発熱（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/fever.html#再評価エスカレーションの目安例",
+    "href": "topics/vitals/fever.html#再評価エスカレーションの目安例",
+    "title": "発熱（内科病棟）",
+    "section": "7 再評価・エスカレーションの目安（例）",
+    "text": "7 再評価・エスカレーションの目安（例）\n\n収縮期血圧低下、乳酸上昇、尿量低下、意識変容、呼吸不全進行など、臓器不全が疑われる場合は早めに上級医・ICU相談を検討します(Rhodes ほか 2021年)。\n\n焦点が決まらないまま悪化、または免疫不全宿主での発熱は相談閾値を下げやすいです。\n\n関連: 血圧低下 / 呼吸数増加 / 低酸素・呼吸苦",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -129,8 +165,8 @@
     "objectID": "topics/vitals/fever.html#参考文献本章",
     "href": "topics/vitals/fever.html#参考文献本章",
     "title": "発熱（内科病棟）",
-    "section": "5 参考文献（本章）",
-    "text": "5 参考文献（本章）\n\n\nRhodes, Andrew, Laura E Evans, Waleed Alhazzani, ほか. 2021年. 「Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021」. Intensive Care Medicine 47: 1181–247. https://doi.org/10.1007/s00134-021-06506-y.\n\n\nSinger, Manu, Clifford S Deutschman, Christopher W Seymour, ほか. 2016年. 「The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)」. JAMA 315 (8): 801–10. https://doi.org/10.1001/jama.2016.0287.",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）\n\n\nRhodes, Andrew, Laura E Evans, Waleed Alhazzani, ほか. 2021年. 「Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021」. Intensive Care Medicine 47: 1181–247. https://doi.org/10.1007/s00134-021-06506-y.\n\n\nSinger, Manu, Clifford S Deutschman, Christopher W Seymour, ほか. 2016年. 「The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)」. JAMA 315 (8): 801–10. https://doi.org/10.1001/jama.2016.0287.",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -142,7 +178,7 @@
     "href": "topics/vitals/hypotension.html",
     "title": "血圧低下（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\n本ページは構成案に基づくプレースホルダです。閾値・コンサルト基準は施設方針と原典で必ず確認してください。",
+    "text": "低血圧・組織灌注不良を見逃さず、ショック相当の早期認知と過剰な様子見を減らすための初期フローです。数値閾値・輸液速度・昇圧薬は施設プロトコールと上級医に従ってください。",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -153,8 +189,8 @@
     "objectID": "topics/vitals/hypotension.html#目的",
     "href": "topics/vitals/hypotension.html#目的",
     "title": "血圧低下（内科病棟）",
-    "section": "1 目的",
-    "text": "1 目的\nショック・低血圧を見逃さず、誤った「様子見」を減らすための初期フロー（執筆予定）。",
+    "section": "",
+    "text": "低血圧・組織灌注不良を見逃さず、ショック相当の早期認知と過剰な様子見を減らすための初期フローです。数値閾値・輸液速度・昇圧薬は施設プロトコールと上級医に従ってください。",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -162,11 +198,71 @@
     ]
   },
   {
-    "objectID": "topics/vitals/hypotension.html#統一テンプレ予定",
-    "href": "topics/vitals/hypotension.html#統一テンプレ予定",
+    "objectID": "topics/vitals/hypotension.html#見逃してはいけないred-flags",
+    "href": "topics/vitals/hypotension.html#見逃してはいけないred-flags",
     "title": "血圧低下（内科病棟）",
-    "section": "2 統一テンプレ（予定）",
-    "text": "2 統一テンプレ（予定）\n\n2.1 Red flags\n（執筆予定：意識・尿量・乳酸・出血・敗血症疑いなど）\n\n\n2.2 よくある原因\n（執筆予定：容量・心原性・敗血症・薬剤・アドレナリン不全など）\n\n\n2.3 初期評価\n（執筆予定：ABC、静脈路、ECG、エコー可否、ポイントオブケア検査）\n\n\n2.4 初期対応\n（執筆予定：輸液の考え方は文脈依存—断定を避ける）\n\n\n2.5 再評価・コンサルト基準\n（執筆予定：数値閾値は施設ルールへ）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n意識障害（新規の傾眠・見当識障害）\n\n収縮期血圧の持続的低下（基線からの急変、または臨床的に「低い」）\n\n頻脈が血圧低下・冷汗・皮膚花斑・尿量低下とセット\n\n乳酸上昇（取得できるなら）、代謝性アシドーシス\n\n活動性出血の所見（吐血・下血・創部出血、血腫の拡大）\n\n敗血症疑い（発熱/低体温、焦点感染、急速進行の全身状態悪化）(Singer ほか 2016年; Rhodes ほか 2021年)\n\n胸痛・急性心不全を伴う低血圧（心原性ショックの可能性）",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "血圧低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/hypotension.html#よくある原因鑑別の枠",
+    "href": "topics/vitals/hypotension.html#よくある原因鑑別の枠",
+    "title": "血圧低下（内科病棟）",
+    "section": "3 よくある原因（鑑別の「枠」）",
+    "text": "3 よくある原因（鑑別の「枠」）\n病棟では次のカテゴリを頭に置くと整理しやすいです（同時に複合し得ます）。\n\n低容量（脱水、出血、第三間隙、利尿・下痢嘔吐）\n\n分布性（敗血症、アナフィラキシー、神経原性など）\n\n心原性（急性冠症候群、不整脈、心不全増悪、肺塞栓など）\n\n閉塞性（緊張性気胸、大量肺塞栓など）— 病棟で疑われたら早い相談\n\n薬剤性（降圧薬、β遮断薬過量、鎮静薬など）",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "血圧低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/hypotension.html#初期フロー内科一般",
+    "href": "topics/vitals/hypotension.html#初期フロー内科一般",
+    "title": "血圧低下（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[低血圧/灌注不良の認知] --&gt; B[ABC・意識・尿量]\n  B --&gt; C{生命危機・ショック疑い?}\n  C --&gt;|Yes| U[上級医/ICU・救急連携&lt;br/&gt;静脈路・モニタ・検査拡大]\n  C --&gt;|No| D[文脈: 新規薬/輸液/出血/発熱]\n  D --&gt; E[身体所見: 皮膚・JVP・出血&lt;br/&gt;感染焦点・腸管]\n  E --&gt; F{灌注は保たれている?}\n  F --&gt;|不確実/悪化| U\n  F --&gt;|保たれる| G[原因指向の介入&lt;br/&gt;再評価時刻を決める]",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "血圧低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/hypotension.html#初期評価のポイント",
+    "href": "topics/vitals/hypotension.html#初期評価のポイント",
+    "title": "血圧低下（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\n体位・測定: 臥位/座位、袖帯サイズ、両腕差、心房細動での自動計測誤差などを確認。\n\n12誘導ECG: 可能なら早期（虚血・不整脈・電解質の手がかり）。\n\n感染焦点: 肺、尿路、静脈路、創、腹部所見。\n\n出血: 外出血に加え、消化管・後腹膜など目に見えない出血も文脈で。\n\n検査: 施設に応じて血液ガス、乳酸、腎機能、Hbトレンド、プロカルシトニン等—検査待ちで治療を止めない判断が必要な場合があります。",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "血圧低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/hypotension.html#初期対応の考え方一般論",
+    "href": "topics/vitals/hypotension.html#初期対応の考え方一般論",
+    "title": "血圧低下（内科病棟）",
+    "section": "6 初期対応の考え方（一般論）",
+    "text": "6 初期対応の考え方（一般論）\n\nショック相当は昇圧薬・強い輸液負荷の可否が患者ごとに大きく異なります。内科病棟単独での継続的判断が難しいときは早めに上級医/ICUです(Rhodes ほか 2021年)。\n\n敗血症疑いでは、感染源コントロールと適切な抗菌薬のタイミングが問題になりますが、培養と治療開始の順序は臨床状況で調整します(Rhodes ほか 2021年)。\n\n心原性が強く疑われる場合、漫然と大量輸液しない—エコーが使える環境なら相談しやすいです。",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "血圧低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/hypotension.html#再評価コンサルト基準例",
+    "href": "topics/vitals/hypotension.html#再評価コンサルト基準例",
+    "title": "血圧低下（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n治療開始後も血圧・意識・尿量・酸素化が改善しない、または再悪化\n\n乳酸・代謝性アシドーシスの悪化、新規の不整脈・胸痛\n\n輸液・薬物で改善が乏しく、ICUレベルのモニタが必要と感じたとき\n\n関連: 発熱 / 頻脈 / 低酸素・呼吸苦",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -177,8 +273,8 @@
     "objectID": "topics/vitals/hypotension.html#参考文献本章",
     "href": "topics/vitals/hypotension.html#参考文献本章",
     "title": "血圧低下（内科病棟）",
-    "section": "3 参考文献（本章）",
-    "text": "3 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）\n\n\nRhodes, Andrew, Laura E Evans, Waleed Alhazzani, ほか. 2021年. 「Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021」. Intensive Care Medicine 47: 1181–247. https://doi.org/10.1007/s00134-021-06506-y.\n\n\nSinger, Manu, Clifford S Deutschman, Christopher W Seymour, ほか. 2016年. 「The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)」. JAMA 315 (8): 801–10. https://doi.org/10.1001/jama.2016.0287.",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -334,7 +430,7 @@
     "href": "topics/labs/potassium.html",
     "title": "高K血症・低K血症（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。高Kは心電図・症状優先の緊急度評価から執筆予定です。",
+    "text": "高K血症は致死性不整脈につながり得るため、ECG と臨床で緊急度を切り分けます。補正の具体手順は施設プロトコールに従ってください。",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -342,11 +438,71 @@
     ]
   },
   {
-    "objectID": "topics/labs/potassium.html#統一テンプレ予定",
-    "href": "topics/labs/potassium.html#統一テンプレ予定",
+    "objectID": "topics/labs/potassium.html#目的",
+    "href": "topics/labs/potassium.html#目的",
     "title": "高K血症・低K血症（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 緊急性評価\n\n\n1.2 原因鑑別（絞り込み）\n\n\n1.3 初期対応\n\n\n1.4 コンサルト基準",
+    "section": "",
+    "text": "高K血症は致死性不整脈につながり得るため、ECG と臨床で緊急度を切り分けます。補正の具体手順は施設プロトコールに従ってください。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "高K血症・低K血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/potassium.html#見逃してはいけないred-flags",
+    "href": "topics/labs/potassium.html#見逃してはいけないred-flags",
+    "title": "高K血症・低K血症（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n2.1 高K\n\n高尖T波、QRS延長、正弦波様、頻脈/徐脈、血圧低下（ECG変化は感度が限定的）\n\n腎不全、RAS阻害/保K利尿薬、NSAIDs、K補正/輸血の文脈\n\n腫瘍崩壊、代謝性アシドーシス、低アルドステロン状態\n\n\n\n2.2 低K\n\n致死性不整脈リスク（基礎心疾患、QT延長、ジゴキシン併用など）\n\n代謝性アルカローシス、利尿薬、下痢嘔吐、再分布（インスリン、β刺激など）",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "高K血症・低K血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/potassium.html#初期フロー高kを優先して簡略化",
+    "href": "topics/labs/potassium.html#初期フロー高kを優先して簡略化",
+    "title": "高K血症・低K血症（内科病棟）",
+    "section": "3 初期フロー（高Kを優先して簡略化）",
+    "text": "3 初期フロー（高Kを優先して簡略化）\n\n\n\n\n\nflowchart TD\n  A[高Kの報告] --&gt; B[ECG取得&lt;br/&gt;腎機能・薬剤・文脈]\n  B --&gt; C{不整脈/重度ECG変化&lt;br/&gt;または重篤な全身?}\n  C --&gt;|Yes| U[救急対応ルート&lt;br/&gt;上級医・ICU]\n  C --&gt;|No| D[偽性高Kを除外&lt;br/&gt;採血・溶血を確認]\n  D --&gt; E[K降下の方針&lt;br/&gt;再検査間隔を決める]\n  E --&gt; F{専門判断が必要?}\n  F --&gt;|Yes| U\n\n\n\n\n\n\n低Kは多くの場合原因治療と再評価が中心ですが、リスク因子（上記）があるときは早めに相談します。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "高K血症・低K血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/potassium.html#初期評価のポイント",
+    "href": "topics/labs/potassium.html#初期評価のポイント",
+    "title": "高K血症・低K血症（内科病棟）",
+    "section": "4 初期評価のポイント",
+    "text": "4 初期評価のポイント\n\n12誘導ECG（高K・低Kどちらも不整脈リスクの整理に有用）。\n\n腎機能、酸塩基平衡、血糖、尿量。\n\n薬剤: ACE阻害薬/ARB、スピロノラクトン、トリメトプリム、NSAIDs、利尿薬など。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "高K血症・低K血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/potassium.html#初期対応の考え方",
+    "href": "topics/labs/potassium.html#初期対応の考え方",
+    "title": "高K血症・低K血症（内科病棟）",
+    "section": "5 初期対応の考え方",
+    "text": "5 初期対応の考え方\n\n高Kの緊急治療（カルシウム、インスリン+糖、β刺激、重炭酸など）は適応と禁忌が大きく、研修医単独の新規開始は避け指示を確認します。\n\n低Kの経口/静脈補正も速度・モニタ要件があり、尿量と腎機能で方針が変わります。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "高K血症・低K血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/potassium.html#再評価コンサルト基準例",
+    "href": "topics/labs/potassium.html#再評価コンサルト基準例",
+    "title": "高K血症・低K血症（内科病棟）",
+    "section": "6 再評価・コンサルト基準（例）",
+    "text": "6 再評価・コンサルト基準（例）\n\n高KでECG変化、または症状\n\n治療抵抗性の高K、原因が決まらない低K（腎尿細管性など）\n\n関連: Cr上昇 / 頻脈",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -357,8 +513,8 @@
     "objectID": "topics/labs/potassium.html#参考文献本章",
     "href": "topics/labs/potassium.html#参考文献本章",
     "title": "高K血症・低K血症（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "7 参考文献（本章）",
+    "text": "7 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -370,7 +526,7 @@
     "href": "topics/labs/sodium.html",
     "title": "低Na血症・高Na血症（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。「緊急性評価 → 鑑別を絞る → 初期対応 → コンサルト基準」の型で執筆予定です。電解質補正は速度・中枢症状でリスクが大きいため、断定処方は扱いません。",
+    "text": "電解質補正は速度・中枢症状でリスクが大きいため、ここでは緊急度の切り分けと「何を相談するか」に絞ります。具体の補正速度・製剤選択は施設プロトコールと専門医に従ってください。",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -378,11 +534,83 @@
     ]
   },
   {
-    "objectID": "topics/labs/sodium.html#統一テンプレ予定",
-    "href": "topics/labs/sodium.html#統一テンプレ予定",
+    "objectID": "topics/labs/sodium.html#目的",
+    "href": "topics/labs/sodium.html#目的",
     "title": "低Na血症・高Na血症（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 緊急性評価\n\n\n1.2 原因鑑別（絞り込み）\n\n\n1.3 初期対応\n\n\n1.4 コンサルト基準",
+    "section": "",
+    "text": "電解質補正は速度・中枢症状でリスクが大きいため、ここでは緊急度の切り分けと「何を相談するか」に絞ります。具体の補正速度・製剤選択は施設プロトコールと専門医に従ってください。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "低Na血症・高Na血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/sodium.html#見逃してはいけないred-flags",
+    "href": "topics/labs/sodium.html#見逃してはいけないred-flags",
+    "title": "低Na血症・高Na血症（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n意識障害、けいれん（低Naでも高Naでも）\n\n急激なNa変化（過去24–48時間の推移が取れると安全）\n\n脳腫瘍・肝硬変・腎不全など、脳の適応が崩れやすい背景\n\n利尿薬、ADH作用薬、大量輸液など医原性の文脈",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "低Na血症・高Na血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/sodium.html#よくある原因超簡略",
+    "href": "topics/labs/sodium.html#よくある原因超簡略",
+    "title": "低Na血症・高Na血症（内科病棟）",
+    "section": "3 よくある原因（超簡略）",
+    "text": "3 よくある原因（超簡略）\n低Na: SIADH、利尿薬、有效循環血漿量低下（心不全/肝硬変/腎症候群）、原発性多飲、腎障害など（鑑別は尿電解質・臨床像で整理）\n高Na: 水分欠乏（経口摂取不良、尿崩症様、浸透圧利尿、高血糖など）、過剰Na負荷（輸液・経腸）",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "低Na血症・高Na血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/sodium.html#初期フロー内科一般",
+    "href": "topics/labs/sodium.html#初期フロー内科一般",
+    "title": "低Na血症・高Na血症（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[異常Naの報告] --&gt; B[症状: 意識・けいれん&lt;br/&gt;水分バランス・体重]\n  B --&gt; C{中枢症状あり?}\n  C --&gt;|Yes| U[上級医/ICU・専門&lt;br/&gt;補正はルール厳守]\n  C --&gt;|No| D[急激な変化か?&lt;br/&gt;採血時刻・輸液を確認]\n  D --&gt; E[原因カテゴリを仮説&lt;br/&gt;尿検査・浸透圧は施設で]\n  E --&gt; F{補正が必要か判断困難?}\n  F --&gt;|Yes| U\n  F --&gt;|No| G[原因治療優先&lt;br/&gt;再採血時刻を決める]",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "低Na血症・高Na血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/sodium.html#初期評価のポイント",
+    "href": "topics/labs/sodium.html#初期評価のポイント",
+    "title": "低Na血症・高Na血症（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\n急性 vs 慢性の推定（可能なら過去データ）。急性変化ほど急速補正のリスクが問題になりやすいです。\n\n輸液・経腸栄養・利尿薬の変更タイミング。\n\n血糖（偽性低Na/高Naの解釈）。\n\n尿量、体重、浮肿/脱水の身体所見。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "低Na血症・高Na血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/sodium.html#初期対応の考え方",
+    "href": "topics/labs/sodium.html#初期対応の考え方",
+    "title": "低Na血症・高Na血症（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n低Naで中枢症状がある場合の管理は高度な専門判断が伴います。内科病棟単独での強い電解質補正は避け、指示系統を確認します。\n\n高Naでは自由水不足の補正が中心になりやすいですが、補正速度が脳に影響します。\n\n「数値だけ」で漫然と輸液を変えず、再採血の間隔を決めます。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "低Na血症・高Na血症（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/sodium.html#再評価コンサルト基準例",
+    "href": "topics/labs/sodium.html#再評価コンサルト基準例",
+    "title": "低Na血症・高Na血症（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n意識障害、けいれん、Naの急速変化\n\n補正後に神経症状が出現・悪化（ODS などのリスクを考える）\n\n腎・内分泌・心不全が絡む難例\n\n関連: Cr上昇 / 悪心・嘔吐",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -393,8 +621,8 @@
     "objectID": "topics/labs/sodium.html#参考文献本章",
     "href": "topics/labs/sodium.html#参考文献本章",
     "title": "低Na血症・高Na血症（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -706,7 +934,7 @@
     "href": "topics/symptoms/edema.html",
     "title": "浮腫（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。局所 vs 全身、急性 vs 慢性、心・肝・腎・リンパ・薬剤・血栓などの切り分けを執筆予定です。",
+    "text": "局所 vs 全身、急性 vs 慢性を切り分け、深部静脈血栓・心不全・肝硬変・腎症候群など見逃しやすい病態を早期に拾うためのフローです。",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -714,11 +942,83 @@
     ]
   },
   {
-    "objectID": "topics/symptoms/edema.html#統一テンプレ予定",
-    "href": "topics/symptoms/edema.html#統一テンプレ予定",
+    "objectID": "topics/symptoms/edema.html#目的",
+    "href": "topics/symptoms/edema.html#目的",
     "title": "浮腫（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 Red flags\n\n\n1.2 よくある原因\n\n\n1.3 初期評価\n\n\n1.4 初期対応\n\n\n1.5 再評価・コンサルト基準",
+    "section": "",
+    "text": "局所 vs 全身、急性 vs 慢性を切り分け、深部静脈血栓・心不全・肝硬変・腎症候群など見逃しやすい病態を早期に拾うためのフローです。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "浮腫（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/edema.html#見逃してはいけないred-flags",
+    "href": "topics/symptoms/edema.html#見逃してはいけないred-flags",
+    "title": "浮腫（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n急性の片脚腫脹＋胸痛・呼吸困難（肺塞栓/深部静脈血栓の文脈）\n\n急激な体重増、起坐呼吸・労作性呼吸困難（心不全増悪）\n\n腹痛・黄疸（肝・門脈圧関連）\n\n全般状態悪化、尿量低下（腎症候群/腎不全）",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "浮腫（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/edema.html#よくある原因枠",
+    "href": "topics/symptoms/edema.html#よくある原因枠",
+    "title": "浮腫（内科病棟）",
+    "section": "3 よくある原因（枠）",
+    "text": "3 よくある原因（枠）\n\n静脈/リンパ: DVT、Cellulitis、リンパ浮腫、長時間臥床\n\n心不全: 右心/左心不全、体液貯留\n\n肝硬変: 低アルブミン、アルドステロン亢進\n\n腎: ネフローゼ、腎不全、過剰輸液\n\n薬剤: CCB、NSAIDs、チアゾリジンなど（文脈依存）",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "浮腫（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/edema.html#初期フロー内科一般",
+    "href": "topics/symptoms/edema.html#初期フロー内科一般",
+    "title": "浮腫（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[浮腫の評価] --&gt; B[局所か全身か&lt;br/&gt;急性か慢性か]\n  B --&gt; C{片脚急性腫脹?}\n  C --&gt;|Yes| D[DVT/感染を疑う&lt;br/&gt;施設ルールで検査]\n  C --&gt;|No| E[心・肝・腎・蛋白&lt;br/&gt;輸液バランスを整理]\n  E --&gt; F{呼吸困難・胸痛?}\n  F --&gt;|Yes| U[上級医: 心不全/PE等]\n  F --&gt;|No| G[原因治療の仮説&lt;br/&gt;体重/出入量監視]",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "浮腫（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/edema.html#初期評価のポイント",
+    "href": "topics/symptoms/edema.html#初期評価のポイント",
+    "title": "浮腫（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\n圧痕性、部位（足背、仙骨部、眼瞼）。\n\nJVP、肺うっ血、腹水の手がかり（可能なら）。\n\nアルブミン、腎機能、尿蛋白（施設で）。\n\n新規薬、輸液量。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "浮腫（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/edema.html#初期対応の考え方",
+    "href": "topics/symptoms/edema.html#初期対応の考え方",
+    "title": "浮腫（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n利尿薬は血圧・腎機能・電解質でリスクが大きい。漫然と増量しない。\n\nDVT疑いは抗凝固の適応判断が専門的です。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "浮腫（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/edema.html#再評価コンサルト基準例",
+    "href": "topics/symptoms/edema.html#再評価コンサルト基準例",
+    "title": "浮腫（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n呼吸不全に進行、片脚腫脹が拡大、感染徴候\n\n利尿抵抗性、腎機能悪化\n\n関連: 低Na血症 / 低酸素・呼吸苦",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -729,8 +1029,8 @@
     "objectID": "topics/symptoms/edema.html#参考文献本章",
     "href": "topics/symptoms/edema.html#参考文献本章",
     "title": "浮腫（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -778,7 +1078,67 @@
     "href": "topics/devices/drain.html",
     "title": "ドレーン（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。排液量・性状の変化、脱管・逆流、感染徴候の評価を外科チーム方針とセットで執筆予定です。",
+    "text": "排液量・性状の変化と脱管・逆流を早期に認知し、感染・出血の手がかりを見逃さないためのチェックリストです。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "ドレーン（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/drain.html#目的",
+    "href": "topics/devices/drain.html#目的",
+    "title": "ドレーン（内科病棟）",
+    "section": "",
+    "text": "排液量・性状の変化と脱管・逆流を早期に認知し、感染・出血の手がかりを見逃さないためのチェックリストです。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "ドレーン（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/drain.html#見逃してはいけないred-flags",
+    "href": "topics/devices/drain.html#見逃してはいけないred-flags",
+    "title": "ドレーン（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n排液の急減/急増、血性の変化、膿性\n\n発熱・創部発赤（創部感染/深部感染の文脈）\n\n脱管、逆流（無菌性の破綻）",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "ドレーン（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/drain.html#初期評価のポイント",
+    "href": "topics/devices/drain.html#初期評価のポイント",
+    "title": "ドレーン（内科病棟）",
+    "section": "3 初期評価のポイント",
+    "text": "3 初期評価のポイント\n\nドレーン種別（何の目的か：血腫、胆汁、漿液など）。\n\n記録：時間単位の量、色、チューブ固定。\n\n外科/施設手順での吸引・クランプの可否。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "ドレーン（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/drain.html#初期対応の考え方",
+    "href": "topics/devices/drain.html#初期対応の考え方",
+    "title": "ドレーン（内科病棟）",
+    "section": "4 初期対応の考え方",
+    "text": "4 初期対応の考え方\n\n内科単独で抜去・洗浄を判断しないことが多い—担当外科/術者へ。\n\n排液が止まった＝改善とは限らない（閉塞・位置不良）。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "ドレーン（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/drain.html#再評価コンサルト基準例",
+    "href": "topics/devices/drain.html#再評価コンサルト基準例",
+    "title": "ドレーン（内科病棟）",
+    "section": "5 再評価・コンサルト基準（例）",
+    "text": "5 再評価・コンサルト基準（例）\n\n全身状態悪化、創部急変、出血\n\nドレーン管理で判断が割れる\n\n関連: 発熱 / 血圧低下",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -789,8 +1149,8 @@
     "objectID": "topics/devices/drain.html#参考文献本章",
     "href": "topics/devices/drain.html#参考文献本章",
     "title": "ドレーン（内科病棟）",
-    "section": "1 参考文献（本章）",
-    "text": "1 参考文献（本章）",
+    "section": "6 参考文献（本章）",
+    "text": "6 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -802,7 +1162,67 @@
     "href": "topics/devices/cvc.html",
     "title": "中心静脈カテーテル（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。ドレッシング・接続部・発熱時の評価など、施設のCVAD管理プロトコールを正とします。",
+    "text": "挿入部・接続部の評価と、発熱時にカテーテル関連感染を疑うタイミングを整理します。抜去・交換は施設のCVAD管理プロトコールが正です。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "中心静脈カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/cvc.html#目的",
+    "href": "topics/devices/cvc.html#目的",
+    "title": "中心静脈カテーテル（内科病棟）",
+    "section": "",
+    "text": "挿入部・接続部の評価と、発熱時にカテーテル関連感染を疑うタイミングを整理します。抜去・交換は施設のCVAD管理プロトコールが正です。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "中心静脈カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/cvc.html#見逃してはいけないred-flags",
+    "href": "topics/devices/cvc.html#見逃してはいけないred-flags",
+    "title": "中心静脈カテーテル（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n挿入部の膿瘍、増悪する発赤、疼痛\n\n発熱 + 他焦点が説明できない（CLABSI を疑う文脈）\n\n閉塞・血栓を疑う腫脹（片側上肢・頸部）",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "中心静脈カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/cvc.html#初期評価のポイント",
+    "href": "topics/devices/cvc.html#初期評価のポイント",
+    "title": "中心静脈カテーテル（内科病棟）",
+    "section": "3 初期評価のポイント",
+    "text": "3 初期評価のポイント\n\nドレッシングの状態、交換日、ルーメン数と用途。\n\n輸液の接続（無菌操作の破綻がないか）。\n\n輸血/栄養などルーメン別のルール。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "中心静脈カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/cvc.html#初期対応の考え方",
+    "href": "topics/devices/cvc.html#初期対応の考え方",
+    "title": "中心静脈カテーテル（内科病棟）",
+    "section": "4 初期対応の考え方",
+    "text": "4 初期対応の考え方\n\n発熱時に必ずしも即抜去ではありませんが、培養・画像・感染症コンサルトは施設方針です。\n\nルーメン閉塞の処理（urokinase 等）は禁忌と手順が大きい。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "中心静脈カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/cvc.html#再評価コンサルト基準例",
+    "href": "topics/devices/cvc.html#再評価コンサルト基準例",
+    "title": "中心静脈カテーテル（内科病棟）",
+    "section": "5 再評価・コンサルト基準（例）",
+    "text": "5 再評価・コンサルト基準（例）\n\n敗血症疑い、挿入部の明らかな感染\n\n血栓・閉塞を疑う所見\n\n関連: 末梢静脈路トラブル / 発熱",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -813,8 +1233,8 @@
     "objectID": "topics/devices/cvc.html#参考文献本章",
     "href": "topics/devices/cvc.html#参考文献本章",
     "title": "中心静脈カテーテル（内科病棟）",
-    "section": "1 参考文献（本章）",
-    "text": "1 参考文献（本章）",
+    "section": "6 参考文献（本章）",
+    "text": "6 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -826,7 +1246,7 @@
     "href": "topics/devices/iv-troubles.html",
     "title": "末梢静脈路・点滴トラブル（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。浸潤・外漏・閉塞・疼痛の鑑別と、感染徴候（蜂窩織炎疑い等）の早期認知を中心に、感染管理の視点で執筆予定です。",
+    "text": "浸潤・外漏・閉塞を見分け、感染徴候（静脈炎/蜂窩織炎疑い）を見逃さないためのフローです。抜去・再挿入は施設手順に従ってください。",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -834,11 +1254,83 @@
     ]
   },
   {
-    "objectID": "topics/devices/iv-troubles.html#想定トピック",
-    "href": "topics/devices/iv-troubles.html#想定トピック",
+    "objectID": "topics/devices/iv-troubles.html#目的",
+    "href": "topics/devices/iv-troubles.html#目的",
     "title": "末梢静脈路・点滴トラブル（内科病棟）",
-    "section": "1 想定トピック",
-    "text": "1 想定トピック\n\n閉塞・滴下不良のチェック\n\n漏れ・浸潤の評価\n\n抜去・再挿入の判断（施設手順）\n\nカテーテル関連血流感染を疑うタイミング",
+    "section": "",
+    "text": "浸潤・外漏・閉塞を見分け、感染徴候（静脈炎/蜂窩織炎疑い）を見逃さないためのフローです。抜去・再挿入は施設手順に従ってください。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "末梢静脈路・点滴トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/iv-troubles.html#見逃してはいけないred-flags",
+    "href": "topics/devices/iv-troubles.html#見逃してはいけないred-flags",
+    "title": "末梢静脈路・点滴トラブル（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n発熱・発赤・腫脹・疼痛が静脈路走行に沿う（静脈炎/感染疑い）\n\n薬剤外漏で組織壊死リスクがある薬（施設の外漏プロトコール）\n\n全身感染症を疑う所見（敗血症）",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "末梢静脈路・点滴トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/iv-troubles.html#よくある原因",
+    "href": "topics/devices/iv-troubles.html#よくある原因",
+    "title": "末梢静脈路・点滴トラブル（内科病棟）",
+    "section": "3 よくある原因",
+    "text": "3 よくある原因\n\n浸潤/外漏: 固定不良、関節部、高圧輸液、高浸透圧薬\n\n閉塞: 血栓、フィルター、折れ曲がり、ヘパリンロックの問題など\n\n疼痛: 静脈炎、薬剤刺激、位置不良",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "末梢静脈路・点滴トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/iv-troubles.html#初期フロー内科一般",
+    "href": "topics/devices/iv-troubles.html#初期フロー内科一般",
+    "title": "末梢静脈路・点滴トラブル（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[点滴トラブル] --&gt; B[滴下は止まっているか&lt;br/&gt;患者訴え・部位視診]\n  B --&gt; C{浸潤・腫脹・発赤?}\n  C --&gt;|Yes| D[止液・部位挙上&lt;br/&gt;施設の外漏手順]\n  C --&gt;|No| E[ルート確認: 折れ/スライダー&lt;br/&gt;フィルター/ポンプ]\n  E --&gt; F{改善?}\n  F --&gt;|No| G[代替ルート確保&lt;br/&gt;必要なら上級医]\n  D --&gt; H{感染徴候?}\n  H --&gt;|Yes| U[感染症/上級医相談]",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "末梢静脈路・点滴トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/iv-troubles.html#初期評価のポイント",
+    "href": "topics/devices/iv-troubles.html#初期評価のポイント",
+    "title": "末梢静脈路・点滴トラブル（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\n穿刺部位（発赤範囲、熱感、疼痛、硬結）。\n\nどの薬が走っているか（外漏リスク）。\n\n挿入日時、交換予定（施設ルール）。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "末梢静脈路・点滴トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/iv-troubles.html#初期対応の考え方",
+    "href": "topics/devices/iv-troubles.html#初期対応の考え方",
+    "title": "末梢静脈路・点滴トラブル（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n浸潤が進行する場合は止液が先。外漏薬剤ごとの拮抗・解毒はプロトコール参照。\n\n単純な閉塞でも強い加圧で解除を試みない（安全優先）。\n\nカテーテル関連感染が疑われたら、培養・抜去タイミングは方針相談。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "末梢静脈路・点滴トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/iv-troubles.html#再評価コンサルト基準例",
+    "href": "topics/devices/iv-troubles.html#再評価コンサルト基準例",
+    "title": "末梢静脈路・点滴トラブル（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n発熱、発赤の急速拡大、菌血症を疑う所見\n\n外漏で皮膚壊死が疑われる\n\n関連: 中心静脈カテーテル / 発熱",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -849,8 +1341,8 @@
     "objectID": "topics/devices/iv-troubles.html#参考文献本章",
     "href": "topics/devices/iv-troubles.html#参考文献本章",
     "title": "末梢静脈路・点滴トラブル（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -862,7 +1354,91 @@
     "href": "topics/devices/oxygen-therapy.html",
     "title": "酸素療法トラブル（内科病棟）",
     "section": "",
-    "text": "ノート関連ページ\n\n\n\n装置トラブル（流量・加湿器・インタフェース）と、低酸素そのものの評価は 低酸素・呼吸苦 とセットで読むと整理しやすいです。",
+    "text": "装置・流量・インタフェースの問題で酸素化が足りないケースを整理し、低酸素の患者評価とセットで安全に切り分けます。\n\n\n\n\n\n\nノート関連\n\n\n\n呼吸・酸素化の臨床評価は 低酸素・呼吸苦 が主です。本章は「装置まわり」を補います。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "酸素療法トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/oxygen-therapy.html#目的",
+    "href": "topics/devices/oxygen-therapy.html#目的",
+    "title": "酸素療法トラブル（内科病棟）",
+    "section": "",
+    "text": "装置・流量・インタフェースの問題で酸素化が足りないケースを整理し、低酸素の患者評価とセットで安全に切り分けます。\n\n\n\n\n\n\nノート関連\n\n\n\n呼吸・酸素化の臨床評価は 低酸素・呼吸苦 が主です。本章は「装置まわり」を補います。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "酸素療法トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/oxygen-therapy.html#見逃してはいけないred-flags",
+    "href": "topics/devices/oxygen-therapy.html#見逃してはいけないred-flags",
+    "title": "酸素療法トラブル（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n酸素を最大にしてもSpO₂が目標に届かない（患者要因 vs 装置要因の両方を疑う）\n\n意識障害・努力呼吸（装置以前にABC）\n\nCO₂ナルコーシスを疑う背景（COPD 等）— 高流量/NIVは適応とモニタが大きい",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "酸素療法トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/oxygen-therapy.html#よくある原因装置まわり",
+    "href": "topics/devices/oxygen-therapy.html#よくある原因装置まわり",
+    "title": "酸素療法トラブル（内科病棟）",
+    "section": "3 よくある原因（装置まわり）",
+    "text": "3 よくある原因（装置まわり）\n\n鼻カニュラ位置ずれ、口呼吸（酸素が届いていない）\n\n加湿器・チューブ接続不良、酸素メーター/バルブ\n\nマスク不適合（漏れ、サイズ）\n\n吸引・痰で気道が不安定",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "酸素療法トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/oxygen-therapy.html#初期フロー内科一般",
+    "href": "topics/devices/oxygen-therapy.html#初期フロー内科一般",
+    "title": "酸素療法トラブル（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[酸素療法の問題] --&gt; B[患者: 意識・呼吸作業&lt;br/&gt;SpO2トレンド]\n  B --&gt; C{臨床が重症?}\n  C --&gt;|Yes| U[上級医/ICU経路&lt;br/&gt;装置以前に評価]\n  C --&gt;|No| D[装置: 流量設定&lt;br/&gt;カニュラ/マスク装着]\n  D --&gt; E[接続・漏れ・加湿器]\n  E --&gt; F{改善?}\n  F --&gt;|No| G[別インタフェース検討&lt;br/&gt;は方針で]\n  G --&gt; U",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "酸素療法トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/oxygen-therapy.html#初期評価のポイント",
+    "href": "topics/devices/oxygen-therapy.html#初期評価のポイント",
+    "title": "酸素療法トラブル（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\n処方どおりの酸素量が出ているか（スタッフとダブルチェック）。\n\n酸素療法の目標SpO₂（COPD では過剰酸素に注意）(Chu ほか 2018年)。\n\nSpO₂波形の信頼性。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "酸素療法トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/oxygen-therapy.html#初期対応の考え方",
+    "href": "topics/devices/oxygen-therapy.html#初期対応の考え方",
+    "title": "酸素療法トラブル（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\nHFNC/NIVは開始・モニタ要件が大きい。独断で強めるより相談。\n\n在宅酸素患者では装置が異なる—家族・メーカー情報も視野に。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "酸素療法トラブル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/oxygen-therapy.html#再評価コンサルト基準例",
+    "href": "topics/devices/oxygen-therapy.html#再評価コンサルト基準例",
+    "title": "酸素療法トラブル（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n装置修正後も酸素需要が急増\n\n高炭酸血症を疑う眠気・頭痛（文脈で）\n\n関連: 低酸素・呼吸苦 / 呼吸数増加",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -873,8 +1449,8 @@
     "objectID": "topics/devices/oxygen-therapy.html#参考文献本章",
     "href": "topics/devices/oxygen-therapy.html#参考文献本章",
     "title": "酸素療法トラブル（内科病棟）",
-    "section": "1 参考文献（本章）",
-    "text": "1 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）\n\n\nChu, Derek K, Lisa H-Y Kim, Paul J Young, ほか. 2018年. 「Oxygen targets for patients in the intensive care unit: A systematic review and meta-analysis」. The Lancet 391 (10131): 1696–704. https://doi.org/10.1016/S0140-6736(18)30409-1.",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -886,7 +1462,67 @@
     "href": "topics/devices/urinary-catheter.html",
     "title": "尿道カテーテル（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。CAUTI を疑う所見、尿閉・血尿、抜去適応などを執筆予定です。",
+    "text": "尿閉・血尿・発熱とセットで評価し、不要な長期留置とCAUTIのリスクを整理します。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "尿道カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/urinary-catheter.html#目的",
+    "href": "topics/devices/urinary-catheter.html#目的",
+    "title": "尿道カテーテル（内科病棟）",
+    "section": "",
+    "text": "尿閉・血尿・発熱とセットで評価し、不要な長期留置とCAUTIのリスクを整理します。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "尿道カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/urinary-catheter.html#見逃してはいけないred-flags",
+    "href": "topics/devices/urinary-catheter.html#見逃してはいけないred-flags",
+    "title": "尿道カテーテル（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n骨盤痛・明らかな尿閉に伴う急性腎障害疑い\n\n血尿（大量、血塊）\n\n発熱 + 尿路症状/膿尿（他焦点も必ず探す）",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "尿道カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/urinary-catheter.html#初期評価のポイント",
+    "href": "topics/devices/urinary-catheter.html#初期評価のポイント",
+    "title": "尿道カテーテル（内科病棟）",
+    "section": "3 初期評価のポイント",
+    "text": "3 初期評価のポイント\n\n留置理由と抜去可能性（毎日の見直し）。\n\n尿量、膀胱腫大の有無。\n\n尿検査（施設で）。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "尿道カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/urinary-catheter.html#初期対応の考え方",
+    "href": "topics/devices/urinary-catheter.html#初期対応の考え方",
+    "title": "尿道カテーテル（内科病棟）",
+    "section": "4 初期対応の考え方",
+    "text": "4 初期対応の考え方\n\n無菌操作で膀胱留置管理。\n\n抗菌薬は「尿陽性だけ」より臨床像で（過剰治療を避ける）。",
+    "crumbs": [
+      "ホーム",
+      "④ デバイス関連",
+      "尿道カテーテル（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/devices/urinary-catheter.html#再評価コンサルト基準例",
+    "href": "topics/devices/urinary-catheter.html#再評価コンサルト基準例",
+    "title": "尿道カテーテル（内科病棟）",
+    "section": "5 再評価・コンサルト基準（例）",
+    "text": "5 再評価・コンサルト基準（例）\n\n尿閉、急性腎障害、敗血症疑い\n\nカテーテル関連合併症で外科/泌尿器相談が必要なとき\n\n関連: 発熱 / Cr上昇",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -897,8 +1533,8 @@
     "objectID": "topics/devices/urinary-catheter.html#参考文献本章",
     "href": "topics/devices/urinary-catheter.html#参考文献本章",
     "title": "尿道カテーテル（内科病棟）",
-    "section": "1 参考文献（本章）",
-    "text": "1 参考文献（本章）",
+    "section": "6 参考文献（本章）",
+    "text": "6 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "④ デバイス関連",
@@ -910,7 +1546,7 @@
     "href": "topics/symptoms/rash.html",
     "title": "発疹（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。薬疹、感染症疹、血管炎・出血斑など写真・経過・全身状態が鑑別の核になるため、安全側のエスカレーション基準を先に執筆予定です。",
+    "text": "薬疹と感染症疹、血管炎・出血斑など緊急度が異なる皮疹を混同しないための初期フローです。確定診断より安全側のエスカレーションを優先します。",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -918,11 +1554,83 @@
     ]
   },
   {
-    "objectID": "topics/symptoms/rash.html#統一テンプレ予定",
-    "href": "topics/symptoms/rash.html#統一テンプレ予定",
+    "objectID": "topics/symptoms/rash.html#目的",
+    "href": "topics/symptoms/rash.html#目的",
     "title": "発疹（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 Red flags\n\n\n1.2 よくある原因\n\n\n1.3 初期評価\n\n\n1.4 初期対応\n\n\n1.5 再評価・コンサルト基準",
+    "section": "",
+    "text": "薬疹と感染症疹、血管炎・出血斑など緊急度が異なる皮疹を混同しないための初期フローです。確定診断より安全側のエスカレーションを優先します。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "発疹（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/rash.html#見逃してはいけないred-flags",
+    "href": "topics/symptoms/rash.html#見逃してはいけないred-flags",
+    "title": "発疹（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n紫斑・壊死、紫癜（非圧痕性出血斑）\n\n粘膜病変（Stevens-Johnson 症候群などの文脈—鑑別は専門）\n\n発疹＋高熱＋全身状態悪化（重症感染、敗血症）\n\n発疹＋呼吸困難・喉頭浮腫（アナフィラキシー）\n\n新規薬導入後の時間関係が明確",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "発疹（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/rash.html#よくある原因枠",
+    "href": "topics/symptoms/rash.html#よくある原因枠",
+    "title": "発疹（内科病棟）",
+    "section": "3 よくある原因（枠）",
+    "text": "3 よくある原因（枠）\n\n薬剤性（抗生物質、抗けいれん薬、NSAIDs、抗凝固など）\n\n感染: ウイルス疹、蜂窩織炎、髄膜炎菌血症など（臨床像に依存）\n\n湿疹様/苔癬様: 接触、ステロイド外用の乱用など\n\n全身疾患: 血管炎、血小板減少（鑑別は検査と専門）",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "発疹（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/rash.html#初期フロー内科一般",
+    "href": "topics/symptoms/rash.html#初期フロー内科一般",
+    "title": "発疹（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[発疹の認知] --&gt; B[ABC・バイタル&lt;br/&gt;痒み/痛み/発熱]\n  B --&gt; C{全身状態悪化&lt;br/&gt;紫斑/粘膜?}\n  C --&gt;|Yes| U[上級医/救急・皮膚科&lt;br/&gt;採血・培養は方針で]\n  C --&gt;|No| D[新規薬の洗い出し&lt;br/&gt;時系列]\n  D --&gt; E{単純そうで全身安定?}\n  E --&gt;|Yes| F[対症・経過観察&lt;br/&gt;写真記録は施設ルールで]\n  E --&gt;|No| U",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "発疹（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/rash.html#初期評価のポイント",
+    "href": "topics/symptoms/rash.html#初期評価のポイント",
+    "title": "発疹（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\n分布（躯幹中心、四肢末端、圧痕性）。\n\n粘膜、結膜、口腔。\n\n血小板・凝固（出血斑が気になるとき）。\n\n感染焦点（同時に探す）。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "発疹（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/rash.html#初期対応の考え方",
+    "href": "topics/symptoms/rash.html#初期対応の考え方",
+    "title": "発疹（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n疑わしい薬は中止判断が中心になりやすいが、生命維持薬は替代とセットで上級医と。\n\n抗ヒスタミン薬だけで重症薬疹を見逃さない。\n\n写真は個人情報・同意に注意（院内ルール）。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "発疹（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/rash.html#再評価コンサルト基準例",
+    "href": "topics/symptoms/rash.html#再評価コンサルト基準例",
+    "title": "発疹（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n発熱、水疱、粘膜糜烂、急速進行、血圧低下\n\n紫斑、神経症状\n\n関連: 発熱 / 抗菌薬と下痢",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -933,8 +1641,8 @@
     "objectID": "topics/symptoms/rash.html#参考文献本章",
     "href": "topics/symptoms/rash.html#参考文献本章",
     "title": "発疹（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -946,7 +1654,7 @@
     "href": "topics/symptoms/pain.html",
     "title": "疼痛（頭痛・腹痛など）（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\n本ページは構成案に基づくプレースホルダです。疼痛は器質的急患のシグナルになり得るため、除外すべきパターンを先に固定する予定です。",
+    "text": "器質的急患を見逃さないように、部位別の Red flag を先に固定し、鎮痛で評価が曖昧になるタイミングを減らすための初期フローです。\n\n\n\n\n\n\n警告注意\n\n\n\n鎮痛薬は評価を困難にし得ます。腹部所見が不確実なときは、上級医と方針を確認してから積極鎮痛することがあります。",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -954,11 +1662,83 @@
     ]
   },
   {
-    "objectID": "topics/symptoms/pain.html#統一テンプレ予定",
-    "href": "topics/symptoms/pain.html#統一テンプレ予定",
+    "objectID": "topics/symptoms/pain.html#目的",
+    "href": "topics/symptoms/pain.html#目的",
     "title": "疼痛（頭痛・腹痛など）（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 Red flags\n\n\n1.2 よくある原因\n\n\n1.3 初期評価\n\n\n1.4 初期対応\n\n\n1.5 再評価・コンサルト基準",
+    "section": "",
+    "text": "器質的急患を見逃さないように、部位別の Red flag を先に固定し、鎮痛で評価が曖昧になるタイミングを減らすための初期フローです。\n\n\n\n\n\n\n警告注意\n\n\n\n鎮痛薬は評価を困難にし得ます。腹部所見が不確実なときは、上級医と方針を確認してから積極鎮痛することがあります。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "疼痛（頭痛・腹痛など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/pain.html#見逃してはいけない共通の例",
+    "href": "topics/symptoms/pain.html#見逃してはいけない共通の例",
+    "title": "疼痛（頭痛・腹痛など）（内科病棟）",
+    "section": "2 見逃してはいけない（共通の例）",
+    "text": "2 見逃してはいけない（共通の例）\n\n意識障害、ショック、新規神経局在所見\n\n急激な最悪頭痛（SAH などの文脈—鑑別は専門的）\n\n胸痛に伴う血圧低下、頻脈、意識障害、呼吸困難\n\n腹痛に腹膜刺激、腸蠕動音消失、血圧低下、敗血症疑い\n\n片脚腫＋胸痛・呼吸困難（肺塞栓の文脈）",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "疼痛（頭痛・腹痛など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/pain.html#よくある原因枠",
+    "href": "topics/symptoms/pain.html#よくある原因枠",
+    "title": "疼痛（頭痛・腹痛など）（内科病棟）",
+    "section": "3 よくある原因（枠）",
+    "text": "3 よくある原因（枠）\n\n術後/外傷後疼痛、骨転移、神経障害性疼痛\n\n感染（蜂窩織炎、胆嚢炎疑い、腎盂腎炎など）\n\n腸閉塞/イレウス、便秘、膵炎疑い\n\n頭痛: 緊張型、片頭痛、薬物過用、二次性（鑑別は所見依存）",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "疼痛（頭痛・腹痛など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/pain.html#初期フロー内科一般",
+    "href": "topics/symptoms/pain.html#初期フロー内科一般",
+    "title": "疼痛（頭痛・腹痛など）（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[疼痛の評価] --&gt; B[バイタル・意識&lt;br/&gt;部位・急激さ・時系列]\n  B --&gt; C{Red flagあり?}\n  C --&gt;|Yes| U[上級医/救急・専門&lt;br/&gt;検査方針を相談]\n  C --&gt;|No| D[可逆原因: 便秘/尿貯留&lt;br/&gt;姿勢/装具/睡眠]\n  D --&gt; E[非薬物介入]\n  E --&gt; F{鎮痛の必要性}\n  F --&gt;|高| G[段階的鎮痛&lt;br/&gt;モニタ・禁忌確認]\n  F --&gt;|低| H[原因治療優先]\n  G --&gt; I[短い間隔で再評価&lt;br/&gt;効果と副作用]",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "疼痛（頭痛・腹痛など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/pain.html#初期評価のポイント",
+    "href": "topics/symptoms/pain.html#初期評価のポイント",
+    "title": "疼痛（頭痛・腹痛など）（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\nOPQRST（誘因、性状、部位、時間、重症度、随伴症状）を短く整理。\n\n腹部: 圧痛部位、反跳痛、腸音、直腸診の要否は文脈で。\n\n神経: 意識、瞳孔、片麻痺、言語—二次性頭痛を疑う所見がないか。\n\n心血管: 胸痛なら心電図を早めに（施設手順）。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "疼痛（頭痛・腹痛など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/pain.html#初期対応の考え方",
+    "href": "topics/symptoms/pain.html#初期対応の考え方",
+    "title": "疼痛（頭痛・腹痛など）（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\nオピオイドは呼吸抑制、嘔気、便秘、譫妄リスクがあります。高齢・腎機能低下では特に慎重に。\n\nNSAIDsは腎機能、消化管出血、心不全リスクで禁忌が出やすいです。\n\n併用薬（抗凝固、抗血小板、SSRI など）を確認します。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "疼痛（頭痛・腹痛など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/pain.html#再評価コンサルト基準例",
+    "href": "topics/symptoms/pain.html#再評価コンサルト基準例",
+    "title": "疼痛（頭痛・腹痛など）（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n鎮痛後も所見が悪化、または診断が決まらないまま全身状態が落ちる\n\n新規神経所見、腹膜刺激、ショック\n\n関連: 血圧低下 / 低酸素・呼吸苦 / 便秘",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -969,8 +1749,8 @@
     "objectID": "topics/symptoms/pain.html#参考文献本章",
     "href": "topics/symptoms/pain.html#参考文献本章",
     "title": "疼痛（頭痛・腹痛など）（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -982,7 +1762,7 @@
     "href": "topics/symptoms/appetite-loss.html",
     "title": "食欲低下（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。脱水・感染・薬剤・精神・嚥下・腫瘍悪液質など文脈が広いため、Red flag と「いつ栄養支援に相談するか」を中心に執筆予定です。",
+    "text": "栄養と可逆原因（感染、薬剤、便秘、痛み、精神、嚥下）を束ねて評価し、誤嚥リスクや薬剤性を見逃さないためのフローです。",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -990,11 +1770,83 @@
     ]
   },
   {
-    "objectID": "topics/symptoms/appetite-loss.html#統一テンプレ予定",
-    "href": "topics/symptoms/appetite-loss.html#統一テンプレ予定",
+    "objectID": "topics/symptoms/appetite-loss.html#目的",
+    "href": "topics/symptoms/appetite-loss.html#目的",
     "title": "食欲低下（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 Red flags\n\n\n1.2 よくある原因\n\n\n1.3 初期評価\n\n\n1.4 初期対応\n\n\n1.5 再評価・コンサルト基準",
+    "section": "",
+    "text": "栄養と可逆原因（感染、薬剤、便秘、痛み、精神、嚥下）を束ねて評価し、誤嚥リスクや薬剤性を見逃さないためのフローです。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "食欲低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/appetite-loss.html#見逃してはいけないred-flags",
+    "href": "topics/symptoms/appetite-loss.html#見逃してはいけないred-flags",
+    "title": "食欲低下（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n急速な体重減少、持続嘔吐、嚥下障害の新規出現（誤嚥性肺炎のリスク）\n\n意識障害、著明な全身状態悪化\n\n腸閉塞・腹膜炎を疑う腹部所見\n\nうつ病・認知症の急変（背景疾患に依存）",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "食欲低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/appetite-loss.html#よくある原因",
+    "href": "topics/symptoms/appetite-loss.html#よくある原因",
+    "title": "食欲低下（内科病棟）",
+    "section": "3 よくある原因",
+    "text": "3 よくある原因\n\n全身性: 感染、炎症、痛み、低酸素、電解質異常、腎/肝不全\n\n消化管: 便秘、薬剤（オピオイド、抗コリン等）、口腔問題、悪性腫瘍関連\n\n精神・行動: 抑うつ、不安、譫妄（夜間行動含む）\n\n摂食環境: 入院ストレス、食事形態の不一致",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "食欲低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/appetite-loss.html#初期フロー内科一般",
+    "href": "topics/symptoms/appetite-loss.html#初期フロー内科一般",
+    "title": "食欲低下（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[食欲低下] --&gt; B[バイタル・体重・水分&lt;br/&gt;嘔吐/便秘/痛み]\n  B --&gt; C{嚥下疑い・誤嚐リスク?}\n  C --&gt;|Yes| S[嚥下評価は施設ルール&lt;br/&gt;経口制限は指示で]\n  C --&gt;|No| D[可逆原因の除去&lt;br/&gt;痛み/便秘/悪心など]\n  D --&gt; E{全身悪化・Red flag?}\n  E --&gt;|Yes| U[上級医・専門]\n  E --&gt;|No| F[栄養支援チーム相談&lt;br/&gt;再評価時刻]",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "食欲低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/appetite-loss.html#初期評価のポイント",
+    "href": "topics/symptoms/appetite-loss.html#初期評価のポイント",
+    "title": "食欲低下（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\n体重・BMI・経口摂取量（可能なら）。\n\n口腔、義歯、口腔乾燥。\n\n便秘・腹部膨満（便秘）。\n\n新規薬（抗生物質、オピオイド、鎮静薬など）。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "食欲低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/appetite-loss.html#初期対応の考え方",
+    "href": "topics/symptoms/appetite-loss.html#初期対応の考え方",
+    "title": "食欲低下（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n原因治療が先。無理な経口強要は誤嚥を増やし得ます。\n\n経腸栄養/IV補液の開始は適応とルールが大きいため、指示系統を確認します。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "食欲低下（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/appetite-loss.html#再評価コンサルト基準例",
+    "href": "topics/symptoms/appetite-loss.html#再評価コンサルト基準例",
+    "title": "食欲低下（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n栄養リスクが高い（重大な基礎疾患、術後早期など）\n\n誤嚥が疑われる、または摂取量が追いつかない\n\n関連: 悪心・嘔吐 / せん妄・不穏",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -1005,8 +1857,8 @@
     "objectID": "topics/symptoms/appetite-loss.html#参考文献本章",
     "href": "topics/symptoms/appetite-loss.html#参考文献本章",
     "title": "食欲低下（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -1042,7 +1894,7 @@
     "href": "topics/symptoms/nausea-vomiting.html",
     "title": "悪心・嘔吐（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\n本ページは構成案に基づくプレースホルダです。腸閉塞・顱内圧亢進・代謝性急変などの Red flag を先に除外する設計で執筆予定です。",
+    "text": "誤った対症療法だけで済ませることで見逃しやすい、閉塞・顱内圧亢進・代謝性急変などを先に除外するための初期フローです。",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -1050,11 +1902,83 @@
     ]
   },
   {
-    "objectID": "topics/symptoms/nausea-vomiting.html#統一テンプレ予定",
-    "href": "topics/symptoms/nausea-vomiting.html#統一テンプレ予定",
+    "objectID": "topics/symptoms/nausea-vomiting.html#目的",
+    "href": "topics/symptoms/nausea-vomiting.html#目的",
     "title": "悪心・嘔吐（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 Red flags\n\n\n1.2 よくある原因\n\n\n1.3 初期評価\n\n\n1.4 初期対応\n\n\n1.5 再評価・コンサルト基準",
+    "section": "",
+    "text": "誤った対症療法だけで済ませることで見逃しやすい、閉塞・顱内圧亢進・代謝性急変などを先に除外するための初期フローです。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "悪心・嘔吐（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/nausea-vomiting.html#見逃してはいけないred-flags",
+    "href": "topics/symptoms/nausea-vomiting.html#見逃してはいけないred-flags",
+    "title": "悪心・嘔吐（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n意識障害、神経局在所見、激しい頭痛（頭蓋内病変の文脈）\n\n胆汁性嘔吐、腹部の高度膨満、排便ガス停止、反跳痛（閉塞・虚血の文脈）\n\n吐血（上消化管出血）\n\nケトン体上昇・重度高血糖、重度電解質異常の文脈\n\n敗血症を疑う全身所見（発熱/低体温、低血圧、意識変容）",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "悪心・嘔吐（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/nausea-vomiting.html#よくある原因病棟での枠",
+    "href": "topics/symptoms/nausea-vomiting.html#よくある原因病棟での枠",
+    "title": "悪心・嘔吐（内科病棟）",
+    "section": "3 よくある原因（病棟での「枠」）",
+    "text": "3 よくある原因（病棟での「枠」）\n\n胃腸: 薬剤、胃炎、イレウス/閉塞、便秘、腸炎、膵炎疑いなど\n\n全身/代謝: 感染、腎不全、肝不全、電解質異常、脳梗塞/出血後、偏頭痛など\n\n脳: 頭蓋内圧亢進、後頭蓋窩病変（臨床像に依存—神経所見が重要）\n\n前庭/めまい: 回転性めまいなど（鑑別は診察所見に依存）",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "悪心・嘔吐（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/nausea-vomiting.html#初期フロー内科一般",
+    "href": "topics/symptoms/nausea-vomiting.html#初期フロー内科一般",
+    "title": "悪心・嘔吐（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[悪心・嘔吐] --&gt; B[ABC・意識・血糖&lt;br/&gt;脱水徴候]\n  B --&gt; C{神経所見/頭痛&lt;br/&gt;意識障害?}\n  C --&gt;|Yes| N[神経・画像は方針に沿って&lt;br/&gt;早めに上級医]\n  C --&gt;|No| D{腹症・腸閉塞疑い?}\n  D --&gt;|Yes| S[外科/画像の早い相談&lt;br/&gt;経口摂取は止める]\n  D --&gt;|No| E[新規薬・オピオイド&lt;br/&gt;抗生物質などの文脈]\n  E --&gt; F[対症は最小限&lt;br/&gt;原因治療を優先]\n  F --&gt; G{改善?}\n  G --&gt;|No| H[電解質・腎機能&lt;br/&gt;再評価時刻を固定]\n  G --&gt;|No かつ悪化| N",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "悪心・嘔吐（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/nausea-vomiting.html#初期評価のポイント",
+    "href": "topics/symptoms/nausea-vomiting.html#初期評価のポイント",
+    "title": "悪心・嘔吐（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\n嘔吐物の性状（吐血、胆汁、食事か）、最終排便・ガス、腹部所見（鼓腸、圧痛、腸蠕動音）。\n\n神経: 瞳孔、片麻痺、眼振、小脳所見、頸部硬直（解釈は文脈で）。\n\n薬剤: 新規開始・増量（オピオイド、抗生物質、ケモ、GLP-1 など）。\n\n妊娠可能の場合は、施設ルールに沿って妊娠の除外も視野に（該当するなら）。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "悪心・嘔吐（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/nausea-vomiting.html#初期対応の考え方",
+    "href": "topics/symptoms/nausea-vomiting.html#初期対応の考え方",
+    "title": "悪心・嘔吐（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n閉塞・出血・頭蓋内急変が疑わしいとき、制吐薬だけで様子見しない。\n\n制吐薬は原因が比較的明確で、禁忌がない場合に限り検討（QT 延長、錐体外路症状、高齢などに注意）。\n\n経口再開は嘔吐コントロールと全身状態が整ってから。",
+    "crumbs": [
+      "ホーム",
+      "③ よくある症状",
+      "悪心・嘔吐（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/symptoms/nausea-vomiting.html#再評価コンサルト基準例",
+    "href": "topics/symptoms/nausea-vomiting.html#再評価コンサルト基準例",
+    "title": "悪心・嘔吐（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n腹痛増強、腹膜刺激、持続嘔吐で脱水/電解質が進行\n\n意識障害の進行、新規神経所見\n\n上消化管出血・閉塞が疑われる所見\n\n関連: 便秘 / 下痢 / 電解質異常（Na）",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -1065,8 +1989,8 @@
     "objectID": "topics/symptoms/nausea-vomiting.html#参考文献本章",
     "href": "topics/symptoms/nausea-vomiting.html#参考文献本章",
     "title": "悪心・嘔吐（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "③ よくある症状",
@@ -1078,7 +2002,7 @@
     "href": "topics/labs/anemia.html",
     "title": "Hb低下・貧血（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。急性出血・溶血・骨髄不全など、血圧・心拍・出血所見とセットの評価を執筆予定です。",
+    "text": "急性出血と慢性低下を切り分け、輸血適応より先に灌注・出血源・溶血の評価を整理するためのフローです。",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -1086,11 +2010,83 @@
     ]
   },
   {
-    "objectID": "topics/labs/anemia.html#統一テンプレ予定",
-    "href": "topics/labs/anemia.html#統一テンプレ予定",
+    "objectID": "topics/labs/anemia.html#目的",
+    "href": "topics/labs/anemia.html#目的",
     "title": "Hb低下・貧血（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 緊急性評価\n\n\n1.2 原因鑑別（絞り込み）\n\n\n1.3 初期対応\n\n\n1.4 コンサルト基準",
+    "section": "",
+    "text": "急性出血と慢性低下を切り分け、輸血適応より先に灌注・出血源・溶血の評価を整理するためのフローです。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Hb低下・貧血（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/anemia.html#見逃してはいけないred-flags",
+    "href": "topics/labs/anemia.html#見逃してはいけないred-flags",
+    "title": "Hb低下・貧血（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n血圧低下・頻脈（出血性ショック）\n\n胸痛・呼吸困難（急性冠症候群、肺塞栓、重度貧血による虚血）\n\n黄疸・血尿（溶血の文脈）\n\n黒色便・吐血（消化管出血）\n\nHbの急速低下（数日スケール）",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Hb低下・貧血（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/anemia.html#よくある原因枠",
+    "href": "topics/labs/anemia.html#よくある原因枠",
+    "title": "Hb低下・貧血（内科病棟）",
+    "section": "3 よくある原因（枠）",
+    "text": "3 よくある原因（枠）\n\n失血: GI出血、術後、創部、月経異常など\n\n造血低下: 鉄欠乏、慢性炎症、腎性貧血、薬剤、骨髄障害など\n\n溶血: 免疫性、薬剤、TTP/HUS など（鑑別は専門）",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Hb低下・貧血（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/anemia.html#初期フロー内科一般",
+    "href": "topics/labs/anemia.html#初期フロー内科一般",
+    "title": "Hb低下・貧血（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[Hb低下の認知] --&gt; B[バイタル・出血所見&lt;br/&gt;バセラインHbが取れるか]\n  B --&gt; C{血流動態不安定?}\n  C --&gt;|Yes| U[出血/ショック経路&lt;br/&gt;上級医・救急]\n  C --&gt;|No| D[出血源の仮説&lt;br/&gt;便潜血・婦人科歴など]\n  D --&gt; E{溶血疑い?}\n  E --&gt;|Yes| H[専門的検査は方針で&lt;br/&gt;早めに相談]\n  E --&gt;|No| F[鉄・炎症・腎機能&lt;br/&gt;慢性化の手がかり]\n  F --&gt; G[原因治療・再評価]",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Hb低下・貧血（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/anemia.html#初期評価のポイント",
+    "href": "topics/labs/anemia.html#初期評価のポイント",
+    "title": "Hb低下・貧血（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\nMCV、網赤血球、鉄、フェリチン、腎機能（パネルは施設で）。\n\n便潜血、婦人科出血。\n\n抗凝固薬。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Hb低下・貧血（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/anemia.html#初期対応の考え方",
+    "href": "topics/labs/anemia.html#初期対応の考え方",
+    "title": "Hb低下・貧血（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n輸血はHb数値だけでなく症状・心肺予備能・出血速度で判断します（施設基準）。\n\n鉄剤は欠乏が確定してから、かつ出血コントロールとセットが基本です。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Hb低下・貧血（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/anemia.html#再評価コンサルト基準例",
+    "href": "topics/labs/anemia.html#再評価コンサルト基準例",
+    "title": "Hb低下・貧血（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n持続出血、血流動態悪化\n\n溶血、芽球など血液専門を要する所見\n\n関連: 血圧低下 / 低酸素・呼吸苦",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -1101,8 +2097,8 @@
     "objectID": "topics/labs/anemia.html#参考文献本章",
     "href": "topics/labs/anemia.html#参考文献本章",
     "title": "Hb低下・貧血（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -1114,7 +2110,7 @@
     "href": "topics/labs/creatinine.html",
     "title": "Cr上昇・急性腎障害（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。腎前性・腎性・腎後性の切り分けと、薬剤・造影・血圧の文脈を中心に執筆予定です。",
+    "text": "腎前性・腎性・腎後性の切り分けと、薬剤・造影・血圧の文脈を整理し、不要な腎毒性暴露を減らすためのフローです。",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -1122,11 +2118,83 @@
     ]
   },
   {
-    "objectID": "topics/labs/creatinine.html#統一テンプレ予定",
-    "href": "topics/labs/creatinine.html#統一テンプレ予定",
+    "objectID": "topics/labs/creatinine.html#目的",
+    "href": "topics/labs/creatinine.html#目的",
     "title": "Cr上昇・急性腎障害（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 緊急性評価\n\n\n1.2 原因鑑別（絞り込み）\n\n\n1.3 初期対応\n\n\n1.4 コンサルト基準",
+    "section": "",
+    "text": "腎前性・腎性・腎後性の切り分けと、薬剤・造影・血圧の文脈を整理し、不要な腎毒性暴露を減らすためのフローです。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Cr上昇・急性腎障害（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/creatinine.html#見逃してはいけないred-flags",
+    "href": "topics/labs/creatinine.html#見逃してはいけないred-flags",
+    "title": "Cr上昇・急性腎障害（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n無尿・極度の乏尿\n\n高K血症・代謝性アシドーシスを伴う腎障害\n\n膀胱腫大・腎盂拡張を疑う腎後性（導尿・画像は方針で）\n\n急速進行のCr上昇（数日以内）\n\n敗血症・低血圧とセット（腎低灌流）",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Cr上昇・急性腎障害（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/creatinine.html#よくある原因枠",
+    "href": "topics/labs/creatinine.html#よくある原因枠",
+    "title": "Cr上昇・急性腎障害（内科病棟）",
+    "section": "3 よくある原因（枠）",
+    "text": "3 よくある原因（枠）\n\n腎前性: 低灌流（脱水、心不全、出血、敗血症）、腎血管\n\n腎性: ATN（虚血/毒素）、AIN（薬剤）、糸球体疾患疑いなど\n\n腎後性: 前立腺肥大、神経因性膀胱、尿管結石、腫瘍など",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Cr上昇・急性腎障害（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/creatinine.html#初期フロー内科一般",
+    "href": "topics/labs/creatinine.html#初期フロー内科一般",
+    "title": "Cr上昇・急性腎障害（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[Cr上昇の認知] --&gt; B[尿量・血圧・出入量&lt;br/&gt;最近の造影/新薬]\n  B --&gt; C{尿路閉塞疑い?}\n  C --&gt;|Yes| P[膀胱・腎超音波等&lt;br/&gt;導尿は適応で]\n  C --&gt;|No| D{低灌流疑い?}\n  D --&gt;|Yes| R[容量・心拍出の整理&lt;br/&gt;腎毒性薬の見直し]\n  D --&gt;|No| E[尿検査・電解質&lt;br/&gt;専門判断の余地大]\n  E --&gt; F{透析適応を疑う所見?}\n  F --&gt;|Yes| U[上級医/腎臓内科]\n  F --&gt;|No| G[原因治療と再評価]\n  R --&gt; G",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Cr上昇・急性腎障害（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/creatinine.html#初期評価のポイント",
+    "href": "topics/labs/creatinine.html#初期評価のポイント",
+    "title": "Cr上昇・急性腎障害（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\nベースラインCr（可能なら）。\n\n尿量、体重、血圧トレンド。\n\nNSAIDs、ACE/ARB、利尿薬、抗菌薬など。\n\n尿沈渣・尿蛋白/尿Cr比（施設で）。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Cr上昇・急性腎障害（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/creatinine.html#初期対応の考え方",
+    "href": "topics/labs/creatinine.html#初期対応の考え方",
+    "title": "Cr上昇・急性腎障害（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n腎前性でも無制限輸液が正解とは限りません（心不全など）。\n\n腎毒性薬は見直しが中心。\n\n造影剤の文脈があれば、以降の暴露とモニタを計画します。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "Cr上昇・急性腎障害（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/creatinine.html#再評価コンサルト基準例",
+    "href": "topics/labs/creatinine.html#再評価コンサルト基準例",
+    "title": "Cr上昇・急性腎障害（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n電解質異常、酸塩基異常、尿量が回復しない\n\n腎後性が疑われる、または糸球体疾患を疑う尿所見\n\n関連: 高K・低K / 低Na・高Na / 血圧低下",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -1137,8 +2205,8 @@
     "objectID": "topics/labs/creatinine.html#参考文献本章",
     "href": "topics/labs/creatinine.html#参考文献本章",
     "title": "Cr上昇・急性腎障害（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -1150,7 +2218,7 @@
     "href": "topics/labs/inflammation.html",
     "title": "炎症反応上昇（CRP・白血球など）（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\nプレースホルダです。「検査値だけで抗菌薬を始めない」文脈と、臨床像優先のフローを執筆予定です。",
+    "text": "検査値だけで抗菌薬を始めないための整理です。臨床像（バイタル、焦点感染、全身状態）とセットで次の一手を決めます。",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -1158,11 +2226,83 @@
     ]
   },
   {
-    "objectID": "topics/labs/inflammation.html#統一テンプレ予定",
-    "href": "topics/labs/inflammation.html#統一テンプレ予定",
+    "objectID": "topics/labs/inflammation.html#目的",
+    "href": "topics/labs/inflammation.html#目的",
     "title": "炎症反応上昇（CRP・白血球など）（内科病棟）",
-    "section": "1 統一テンプレ（予定）",
-    "text": "1 統一テンプレ（予定）\n\n1.1 緊急性評価\n\n\n1.2 原因鑑別（絞り込み）\n\n\n1.3 初期対応\n\n\n1.4 コンサルト基準",
+    "section": "",
+    "text": "検査値だけで抗菌薬を始めないための整理です。臨床像（バイタル、焦点感染、全身状態）とセットで次の一手を決めます。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "炎症反応上昇（CRP・白血球など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/inflammation.html#見逃してはいけないred-flags",
+    "href": "topics/labs/inflammation.html#見逃してはいけないred-flags",
+    "title": "炎症反応上昇（CRP・白血球など）（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n敗血症疑い（意識障害、低血圧、呼吸不全、乳酸上昇など）(Rhodes ほか 2021年)\n\n免疫不全宿主での熱なき感染もあり得る\n\n急速進行の全身状態悪化",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "炎症反応上昇（CRP・白血球など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/inflammation.html#よくある原因枠",
+    "href": "topics/labs/inflammation.html#よくある原因枠",
+    "title": "炎症反応上昇（CRP・白血球など）（内科病棟）",
+    "section": "3 よくある原因（枠）",
+    "text": "3 よくある原因（枠）\n\n感染: 局所感染、敗血症、術後炎症など\n\n非感染: 手術・外傷後、自己免疫疾患の増悪、腫瘍、梗塞後、薬剤（生物製剤など）",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "炎症反応上昇（CRP・白血球など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/inflammation.html#初期フロー内科一般",
+    "href": "topics/labs/inflammation.html#初期フロー内科一般",
+    "title": "炎症反応上昇（CRP・白血球など）（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[炎症マーカー上昇] --&gt; B[バイタル・意識&lt;br/&gt;焦点感染の身体所見]\n  B --&gt; C{敗血症の臨床疑い?}\n  C --&gt;|Yes| S[敗血症経路&lt;br/&gt;培養・画像は方針で]\n  C --&gt;|No| D{明らかな非感染説明?}\n  D --&gt;|Yes| E[原因治療/経過観察&lt;br/&gt;再評価時刻]\n  D --&gt;|No| F[画像/培養の要否を相談&lt;br/&gt;抗菌薬は慎重に]\n  S --&gt; U[上級医・感染症]\n  F --&gt; U",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "炎症反応上昇（CRP・白血球など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/inflammation.html#初期評価のポイント",
+    "href": "topics/labs/inflammation.html#初期評価のポイント",
+    "title": "炎症反応上昇（CRP・白血球など）（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\nCRP と白血球は感度・特異度に限界があります。\n\nプロカルシトニン等の解釈は施設とガイドラインに依存します。\n\n焦点診察（肺、尿路、創、静脈路、腹部）を先に。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "炎症反応上昇（CRP・白血球など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/inflammation.html#初期対応の考え方",
+    "href": "topics/labs/inflammation.html#初期対応の考え方",
+    "title": "炎症反応上昇（CRP・白血球など）（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n抗菌薬は臨床判断の中心ではなく、感染の疑い度と重症度で決まります(Rhodes ほか 2021年)。\n\n炎症のみで全身安定なら、過剰な広域抗菌薬を避けやすいです。",
+    "crumbs": [
+      "ホーム",
+      "⑤ 検査値異常",
+      "炎症反応上昇（CRP・白血球など）（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/labs/inflammation.html#再評価コンサルト基準例",
+    "href": "topics/labs/inflammation.html#再評価コンサルト基準例",
+    "title": "炎症反応上昇（CRP・白血球など）（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n臨床悪化、焦点が決まらないまま数値だけ上昇\n\n免疫不全、院内感染の懸念\n\n関連: 発熱 / 下痢",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -1173,8 +2313,8 @@
     "objectID": "topics/labs/inflammation.html#参考文献本章",
     "href": "topics/labs/inflammation.html#参考文献本章",
     "title": "炎症反応上昇（CRP・白血球など）（内科病棟）",
-    "section": "2 参考文献（本章）",
-    "text": "2 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）\n\n\nRhodes, Andrew, Laura E Evans, Waleed Alhazzani, ほか. 2021年. 「Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021」. Intensive Care Medicine 47: 1181–247. https://doi.org/10.1007/s00134-021-06506-y.",
     "crumbs": [
       "ホーム",
       "⑤ 検査値異常",
@@ -1278,11 +2418,35 @@
     ]
   },
   {
+    "objectID": "topics/vitals/hypoxia.html#見逃してはいけないred-flags",
+    "href": "topics/vitals/hypoxia.html#見逃してはいけないred-flags",
+    "title": "低酸素・呼吸苦（内科病棟）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n会話不能、補助筋、座位呼吸、発汗など呼吸困難の努力\n\n意識障害、血圧低下（呼吸不全進行・全身悪化）\n\n急性胸痛（肺塞栓、気胸、ACS などの文脈）\n\nSpO₂が目標に届かない、または酸素需要が急増\n\n誤嚥・嗄声など気道異常の手がかり",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "低酸素・呼吸苦（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/hypoxia.html#よくある原因病棟での枠",
+    "href": "topics/vitals/hypoxia.html#よくある原因病棟での枠",
+    "title": "低酸素・呼吸苦（内科病棟）",
+    "section": "3 よくある原因（病棟での「枠」）",
+    "text": "3 よくある原因（病棟での「枠」）\n\n肺实质/気道: 肺炎、誤嚥性、COPD/喘息増悪、肺水腫、ARDS、間質性肺炎急性増悪\n\n血管/胸膜: 肺塞栓疑い、気胸、大量胸水\n\n非肺: 貧血、重度肥満、不十分な酸素投与、測定誤差（低灌注、爪、動き）",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "低酸素・呼吸苦（内科病棟）"
+    ]
+  },
+  {
     "objectID": "topics/vitals/hypoxia.html#初期フロー内科一般",
     "href": "topics/vitals/hypoxia.html#初期フロー内科一般",
     "title": "低酸素・呼吸苦（内科病棟）",
-    "section": "2 初期フロー（内科一般）",
-    "text": "2 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[SpO2低下/呼吸苦] --&gt; B[気道確保と体位&lt;br/&gt;意識・呼吸数・努力呼吸]\n  B --&gt; C{生命危機レベル?}\n  C --&gt;|Yes| E[救急/ICU/上級医&lt;br/&gt;高流量/非侵襲等は方針に従う]\n  C --&gt;|No| D[酸素投与で目標SpO2へ&lt;br/&gt;可能なら原因操作]\n  D --&gt; F{改善持続?}\n  F --&gt;|No| G[画像/血液ガス/心不全評価&lt;br/&gt;肺塞栓リスクの整理]\n  F --&gt;|Yes| H[酸素必要量の推移観察&lt;br/&gt;離脱計画]\n  G --&gt; E",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[SpO2低下/呼吸苦] --&gt; B[気道確保と体位&lt;br/&gt;意識・呼吸数・努力呼吸]\n  B --&gt; C{生命危機レベル?}\n  C --&gt;|Yes| E[救急/ICU/上級医&lt;br/&gt;高流量/非侵襲等は方針に従う]\n  C --&gt;|No| D[酸素投与で目標SpO2へ&lt;br/&gt;可能なら原因操作]\n  D --&gt; F{改善持続?}\n  F --&gt;|No| G[画像/血液ガス/心不全評価&lt;br/&gt;肺塞栓リスクの整理]\n  F --&gt;|Yes| H[酸素必要量の推移観察&lt;br/&gt;離脱計画]\n  G --&gt; E",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1290,11 +2454,11 @@
     ]
   },
   {
-    "objectID": "topics/vitals/hypoxia.html#実践メモたたき台",
-    "href": "topics/vitals/hypoxia.html#実践メモたたき台",
+    "objectID": "topics/vitals/hypoxia.html#初期評価のポイント",
+    "href": "topics/vitals/hypoxia.html#初期評価のポイント",
     "title": "低酸素・呼吸苦（内科病棟）",
-    "section": "3 実践メモ（たたき台）",
-    "text": "3 実践メモ（たたき台）\n\n酸素目標: 「高めが良い」一辺倒ではなく、過剰酸素の害も議論されています。ICU/高リスク集団のエビデンス整理としてメタ解析が参照されます (Chu ほか 2018年)。病棟では施設方針・患者背景（COPD など）に合わせて目標を個別化します。\n\nSpO₂の罠: 低灌注、爪・色素、動きで測定が不安定になり得ます。臨床像と整合しないときは再測定と別部位を検討します。\n\n急性肺塞栓・心不全: 呼吸苦単独でも鑑別に入れ、適応がある場合のみD-dimer 等の解釈を行います（過検査・誤追跡にも注意）。",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\nSpO₂の信頼性（波形、灌注、センサ装着）。臨床像と合わないときは再測定。\n\n呼吸数・努力呼吸は SpO₂ より先行して悪化することがあります（呼吸数増加 参照）。\n\n聴診、下肢腫脹、DVT 徴候、心不全兆候など、肺塞栓・心不全の手がかりを束ねて見ます。\n\n動脈血ガスは換気・酸素化・代謝性異常の整理に有用なことがあります（適応は文脈依存）。",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1302,11 +2466,23 @@
     ]
   },
   {
-    "objectID": "topics/vitals/hypoxia.html#エスカレーションの目安例",
-    "href": "topics/vitals/hypoxia.html#エスカレーションの目安例",
+    "objectID": "topics/vitals/hypoxia.html#初期対応の考え方",
+    "href": "topics/vitals/hypoxia.html#初期対応の考え方",
     "title": "低酸素・呼吸苦（内科病棟）",
-    "section": "4 エスカレーションの目安（例）",
-    "text": "4 エスカレーションの目安（例）\n\n会話不能、補助筋、意識低下、酸素要求の急激増加、持続的低血圧など。",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n酸素目標: 「高めが良い」一辺倒ではなく、過剰酸素の害も議論されています(Chu ほか 2018年)。COPD などでは目標帯を個別化し、高炭酸血症のリスクも踏まえます（施設方針）。\n\nHFNC/NIV などは適応・モニタ要件が大きいため、単独判断よりチームが安全です。\n\n肺塞栓・心不全を疑う場合、検査の前後で安全確保（酸素化、血圧）を優先します。",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "低酸素・呼吸苦（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/hypoxia.html#再評価エスカレーションの目安例",
+    "href": "topics/vitals/hypoxia.html#再評価エスカレーションの目安例",
+    "title": "低酸素・呼吸苦（内科病棟）",
+    "section": "7 再評価・エスカレーションの目安（例）",
+    "text": "7 再評価・エスカレーションの目安（例）\n\n会話不能、補助筋、意識低下、酸素要求の急激増加、持続的低血圧など。\n\nNIV/HFNC 導入後も悪化、または看護・病棟単独での管理が困難。\n\n関連: 呼吸数増加 / 血圧低下 / デバイス：酸素療法トラブル",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1317,8 +2493,8 @@
     "objectID": "topics/vitals/hypoxia.html#参考文献本章",
     "href": "topics/vitals/hypoxia.html#参考文献本章",
     "title": "低酸素・呼吸苦（内科病棟）",
-    "section": "5 参考文献（本章）",
-    "text": "5 参考文献（本章）\n\n\nChu, Derek K, Lisa H-Y Kim, Paul J Young, ほか. 2018年. 「Oxygen targets for patients in the intensive care unit: A systematic review and meta-analysis」. The Lancet 391 (10131): 1696–704. https://doi.org/10.1016/S0140-6736(18)30409-1.",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）\n\n\nChu, Derek K, Lisa H-Y Kim, Paul J Young, ほか. 2018年. 「Oxygen targets for patients in the intensive care unit: A systematic review and meta-analysis」. The Lancet 391 (10131): 1696–704. https://doi.org/10.1016/S0140-6736(18)30409-1.",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1330,7 +2506,7 @@
     "href": "topics/vitals/tachycardia.html",
     "title": "頻脈（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\n本ページは構成案に基づくプレースホルダです。不整脈の危険度分類は原典・施設コンサルト方針に従ってください。",
+    "text": "頻脈の危険度を切り分け、不安定な不整脈と二次性洞性頻脈を混同しないための初期フローです。抗不整脈薬の選択はリスクが大きいため、迷ったら12誘導ECGを取ったうえで上級医に相談してください。",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1341,8 +2517,8 @@
     "objectID": "topics/vitals/tachycardia.html#目的",
     "href": "topics/vitals/tachycardia.html#目的",
     "title": "頻脈（内科病棟）",
-    "section": "1 目的",
-    "text": "1 目的\n血行動態に伴う頻脈と、原疾患に依らない頻脈を切り分ける初期フロー（執筆予定）。",
+    "section": "",
+    "text": "頻脈の危険度を切り分け、不安定な不整脈と二次性洞性頻脈を混同しないための初期フローです。抗不整脈薬の選択はリスクが大きいため、迷ったら12誘導ECGを取ったうえで上級医に相談してください。",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1350,11 +2526,71 @@
     ]
   },
   {
-    "objectID": "topics/vitals/tachycardia.html#統一テンプレ予定",
-    "href": "topics/vitals/tachycardia.html#統一テンプレ予定",
+    "objectID": "topics/vitals/tachycardia.html#見逃してはいけないred-flags",
+    "href": "topics/vitals/tachycardia.html#見逃してはいけないred-flags",
     "title": "頻脈（内科病棟）",
-    "section": "2 統一テンプレ（予定）",
-    "text": "2 統一テンプレ（予定）\n\n2.1 Red flags\n（執筆予定：胸痛、失神、血圧低下、意識障害、急性心不全兆候）\n\n\n2.2 よくある原因\n（執筆予定：発熱・疼痛・低酸素・貧血・甲状腺・不整脈・薬剤など）\n\n\n2.3 初期評価\n（執筆予定：12誘導ECG、電解質、文脈）\n\n\n2.4 初期対応\n（執筆予定：原因指向。不整脈治療は適応とリスクが大きい）\n\n\n2.5 再評価・コンサルト基準\n（執筆予定）",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n血圧低下、意識障害、急性肺水腫、缺血性胸痛、けいれんなど血流動態不安定の所見\n\n広いQRSの頻拍（心室頻拍と診断が曖昧なSVTの区別が難しい）\n\n不整脈に伴うショック疑い\n\n高カリウム血症など代謝・電解質が関与し得る文脈（腎不全、投薬）",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "頻脈（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/tachycardia.html#よくある原因",
+    "href": "topics/vitals/tachycardia.html#よくある原因",
+    "title": "頻脈（内科病棟）",
+    "section": "3 よくある原因",
+    "text": "3 よくある原因\n\n洞性頻脈: 発熱、疼痛、低酸素、低血圧/低容量、貧血、不安、甲状腺機能亢進、薬剤（気管支拡張薬など）、肺塞栓疑いなど\n\n上室性頻拍: 心房細動/粗動 with 急速心室応答、AVNRT、AVRT など(Page ほか 2016年)\n\n心室頻拍: 器質心疾患、電解質異常、薬剤、Brugada などの素因（鑑別は専門領域）",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "頻脈（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/tachycardia.html#初期フロー内科一般",
+    "href": "topics/vitals/tachycardia.html#初期フロー内科一般",
+    "title": "頻脈（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[頻脈の認知] --&gt; B[血流動態は安定?]\n  B --&gt;|不安定| U[救急/上級医&lt;br/&gt;モニタ・12誘導ECG]\n  B --&gt;|安定| C[12誘導ECG取得&lt;br/&gt;電解質・文脈確認]\n  C --&gt; D{QRSは広い?}\n  D --&gt;|広い| W[VT vs SVT+差伝導の鑑別&lt;br/&gt;早めに上級医/心電図専門]\n  D --&gt;|狭い| N[洞性 vs SVT vs AF等&lt;br/&gt;頻脈の型を整理]\n  N --&gt; E{二次性頻脈が説明できる?}\n  E --&gt;|Yes| F[原因治療: 疼痛/低酸素/&lt;br/&gt;発熱/容量など]\n  E --&gt;|いいえ/不明| U",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "頻脈（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/tachycardia.html#初期評価のポイント",
+    "href": "topics/vitals/tachycardia.html#初期評価のポイント",
+    "title": "頻脈（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\nまず血流動態（意識、血圧、尿量、肺うっ血、胸痛）。\n\n12誘導ECGが最優先の情報源になりやすいです。\n\n新規不整脈か、既知の心房細動の増悪かで対応が変わります。\n\n電解質（特にK、Mg）、腎機能、QT延長リスクの薬を確認します。",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "頻脈（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/tachycardia.html#初期対応の考え方",
+    "href": "topics/vitals/tachycardia.html#初期対応の考え方",
+    "title": "頻脈（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n不安定な不整脈は、内科病棟単独での長期マネジメントより救命・連携が優先です。\n\n安定した上室性頻拍の急性治療（迷走神経刺激、薬物、電気的除細動の適応）はガイドラインと施設手順に強く依存します(Page ほか 2016年)。研修医単独での新規抗不整脈薬開始は避け、指示系統を確認します。\n\n洞性頻脈では、不整脈そのものより原因（感染、低酸素、低容量、PE疑いなど）を優先します。",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "頻脈（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/tachycardia.html#再評価コンサルト基準例",
+    "href": "topics/vitals/tachycardia.html#再評価コンサルト基準例",
+    "title": "頻脈（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\n広いQRS頻拍、または診断が確定できない頻拍\n\n頻拍に伴う低血圧・意識障害・肺水腫・胸痛\n\n電気的除細動/緊急カルジオバージョンが頭に浮かぶ状態\n\n関連: 血圧低下 / 低酸素・呼吸苦 / 発熱",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1365,8 +2601,8 @@
     "objectID": "topics/vitals/tachycardia.html#参考文献本章",
     "href": "topics/vitals/tachycardia.html#参考文献本章",
     "title": "頻脈（内科病棟）",
-    "section": "3 参考文献（本章）",
-    "text": "3 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）\n\n\nPage, Richard L, José A Joglar, Mary A Caldwell, ほか. 2016年. 「2015 ACC/AHA/HRS Guideline for the Management of Adult Patients With Supraventricular Tachycardia: Executive Summary」. Heart Rhythm 13 (4): e136–72. https://doi.org/10.1016/j.hrthm.2015.09.010.",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1378,7 +2614,7 @@
     "href": "topics/vitals/tachypnea.html",
     "title": "呼吸数増加（内科病棟）",
     "section": "",
-    "text": "警告執筆中\n\n\n\n本ページは構成案に基づくプレースホルダです。SpO₂低下・代謝性アシドーシスなどとセットで評価します。",
+    "text": "呼吸数（RR）増加は、SpO₂がまだ保たれていても早期悪化のシグナルになり得ます。低酸素・代謝性アシドーシス・感染・疼痛などを束ねて評価するためのフローです。\n\n\n\n\n\n\nノート関連ページ\n\n\n\n努力呼吸・SpO₂低下の評価は 低酸素・呼吸苦 とセットで読むと整理しやすいです。",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1389,8 +2625,8 @@
     "objectID": "topics/vitals/tachypnea.html#目的",
     "href": "topics/vitals/tachypnea.html#目的",
     "title": "呼吸数増加（内科病棟）",
-    "section": "1 目的",
-    "text": "1 目的\n呼吸数増加単独でも見逃しやすい重症化を早期に拾う（執筆予定）。低酸素章（SpO₂低下・呼吸苦）と相互参照予定。",
+    "section": "",
+    "text": "呼吸数（RR）増加は、SpO₂がまだ保たれていても早期悪化のシグナルになり得ます。低酸素・代謝性アシドーシス・感染・疼痛などを束ねて評価するためのフローです。\n\n\n\n\n\n\nノート関連ページ\n\n\n\n努力呼吸・SpO₂低下の評価は 低酸素・呼吸苦 とセットで読むと整理しやすいです。",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1398,11 +2634,11 @@
     ]
   },
   {
-    "objectID": "topics/vitals/tachypnea.html#関連",
-    "href": "topics/vitals/tachypnea.html#関連",
+    "objectID": "topics/vitals/tachypnea.html#見逃してはいけないred-flags",
+    "href": "topics/vitals/tachypnea.html#見逃してはいけないred-flags",
     "title": "呼吸数増加（内科病棟）",
-    "section": "2 関連",
-    "text": "2 関連\n\n酸素化・呼吸作業: 低酸素・呼吸苦",
+    "section": "2 見逃してはいけない（Red flags）",
+    "text": "2 見逃してはいけない（Red flags）\n\n呼吸作業の増大（補助筋、会話不能、座位呼吸、発汗）\n\nSpO₂低下（測定条件を確認したうえで）\n\n意識変容、血圧低下（敗血症・呼吸不全進行）\n\n急性胸痛（肺塞栓、気胸、ACS などの文脈）\n\n急激なRR上昇（数時間以内の明確な変化）",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1410,11 +2646,59 @@
     ]
   },
   {
-    "objectID": "topics/vitals/tachypnea.html#統一テンプレ予定",
-    "href": "topics/vitals/tachypnea.html#統一テンプレ予定",
+    "objectID": "topics/vitals/tachypnea.html#よくある原因病棟で頻出の枠",
+    "href": "topics/vitals/tachypnea.html#よくある原因病棟で頻出の枠",
     "title": "呼吸数増加（内科病棟）",
-    "section": "3 統一テンプレ（予定）",
-    "text": "3 統一テンプレ（予定）\n\n3.1 Red flags\n\n\n3.2 よくある原因\n\n\n3.3 初期評価\n\n\n3.4 初期対応\n\n\n3.5 再評価・コンサルト基準",
+    "section": "3 よくある原因（病棟で頻出の「枠」）",
+    "text": "3 よくある原因（病棟で頻出の「枠」）\n\n肺/胸郭: 肺炎、肺水腫、喘息/COPD増悪、肺塞栓疑い、胸水、誤嚥\n\n全身性: 敗血症、代謝性アシドーシス（腎不全、DKA など）、貧血、発熱\n\n疼痛・不安: 術後疼痛、不安、発作性過換気（診断は除外）\n\n酸素・装置: 酸素流量不足、鼻カニュラ位置、装置トラブル（別章）\n\n呼吸数は敗血症の臨床指標の一つとしても扱われますが、感度・特異度は単独では限界があります(Singer ほか 2016年; Rhodes ほか 2021年)。",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "呼吸数増加（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/tachypnea.html#初期フロー内科一般",
+    "href": "topics/vitals/tachypnea.html#初期フロー内科一般",
+    "title": "呼吸数増加（内科病棟）",
+    "section": "4 初期フロー（内科一般）",
+    "text": "4 初期フロー（内科一般）\n\n\n\n\n\nflowchart TD\n  A[呼吸数増加の認知] --&gt; B[SpO2・意識・血圧&lt;br/&gt;呼吸作業の目視]\n  B --&gt; C{生命危機レベル?}\n  C --&gt;|Yes| U[上級医/ICU・救急&lt;br/&gt;酸素/モニタ拡大]\n  C --&gt;|No| D[測定・装置を再確認&lt;br/&gt;発熱/疼痛/輸液の文脈]\n  D --&gt; E{肺所見・感染焦点は?}\n  E --&gt;|疑わしい| F[画像/検査は方針に沿って&lt;br/&gt;酸素化と再評価]\n  E --&gt;|不明| G[血液ガス/乳酸等&lt;br/&gt;施設に応じて]\n  F --&gt; H{改善?}\n  G --&gt; H\n  H --&gt;|No| U\n  H --&gt;|Yes| I[原因治療と経過観察]",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "呼吸数増加（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/tachypnea.html#初期評価のポイント",
+    "href": "topics/vitals/tachypnea.html#初期評価のポイント",
+    "title": "呼吸数増加（内科病棟）",
+    "section": "5 初期評価のポイント",
+    "text": "5 初期評価のポイント\n\nABCDEで固定し、単に「数値だけ」で安心しない。\n\nSpO₂正常でもRR単独で悪化し得るため、トレンドと全身所見を見ます。\n\n動脈血ガスは、代謝性アシドーシスや換気不全の評価に有用なことがあります（適応は文脈依存）。",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "呼吸数増加（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/tachypnea.html#初期対応の考え方",
+    "href": "topics/vitals/tachypnea.html#初期対応の考え方",
+    "title": "呼吸数増加（内科病棟）",
+    "section": "6 初期対応の考え方",
+    "text": "6 初期対応の考え方\n\n酸素化が必要なら早めに。目標SpO₂は患者背景に合わせます（COPD 等）(Chu ほか 2018年)。\n\n敗血症疑いが強い場合は、感染源評価と全身管理の優先順位づけが必要です(Rhodes ほか 2021年)。\n\n肺塞栓・気胸を疑う所見があれば、過度な様子見を避けルールに沿って相談します。",
+    "crumbs": [
+      "ホーム",
+      "② バイタル異常",
+      "呼吸数増加（内科病棟）"
+    ]
+  },
+  {
+    "objectID": "topics/vitals/tachypnea.html#再評価コンサルト基準例",
+    "href": "topics/vitals/tachypnea.html#再評価コンサルト基準例",
+    "title": "呼吸数増加（内科病棟）",
+    "section": "7 再評価・コンサルト基準（例）",
+    "text": "7 再評価・コンサルト基準（例）\n\nRR悪化が持続、または酸素需要・乳酸・意識・血圧が連動して悪化\n\n診断が決まらないまま全身状態が落ちる\n\n関連: 低酸素・呼吸苦 / 発熱 / 血圧低下",
     "crumbs": [
       "ホーム",
       "② バイタル異常",
@@ -1425,8 +2709,8 @@
     "objectID": "topics/vitals/tachypnea.html#参考文献本章",
     "href": "topics/vitals/tachypnea.html#参考文献本章",
     "title": "呼吸数増加（内科病棟）",
-    "section": "4 参考文献（本章）",
-    "text": "4 参考文献（本章）",
+    "section": "8 参考文献（本章）",
+    "text": "8 参考文献（本章）\n\n\nChu, Derek K, Lisa H-Y Kim, Paul J Young, ほか. 2018年. 「Oxygen targets for patients in the intensive care unit: A systematic review and meta-analysis」. The Lancet 391 (10131): 1696–704. https://doi.org/10.1016/S0140-6736(18)30409-1.\n\n\nRhodes, Andrew, Laura E Evans, Waleed Alhazzani, ほか. 2021年. 「Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021」. Intensive Care Medicine 47: 1181–247. https://doi.org/10.1007/s00134-021-06506-y.\n\n\nSinger, Manu, Clifford S Deutschman, Christopher W Seymour, ほか. 2016年. 「The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)」. JAMA 315 (8): 801–10. https://doi.org/10.1001/jama.2016.0287.",
     "crumbs": [
       "ホーム",
       "② バイタル異常",

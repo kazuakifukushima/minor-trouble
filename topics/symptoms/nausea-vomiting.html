@@ -89,6 +89,9 @@ div.csl-indent {
     "search-label": "サーチ"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -411,15 +414,14 @@ div.csl-indent {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#統一テンプレ予定" id="toc-統一テンプレ予定" class="nav-link active" data-scroll-target="#統一テンプレ予定"><span class="header-section-number">1</span> 統一テンプレ（予定）</a>
-  <ul class="collapse">
-  <li><a href="#red-flags" id="toc-red-flags" class="nav-link" data-scroll-target="#red-flags"><span class="header-section-number">1.1</span> Red flags</a></li>
-  <li><a href="#よくある原因" id="toc-よくある原因" class="nav-link" data-scroll-target="#よくある原因"><span class="header-section-number">1.2</span> よくある原因</a></li>
-  <li><a href="#初期評価" id="toc-初期評価" class="nav-link" data-scroll-target="#初期評価"><span class="header-section-number">1.3</span> 初期評価</a></li>
-  <li><a href="#初期対応" id="toc-初期対応" class="nav-link" data-scroll-target="#初期対応"><span class="header-section-number">1.4</span> 初期対応</a></li>
-  <li><a href="#再評価コンサルト基準" id="toc-再評価コンサルト基準" class="nav-link" data-scroll-target="#再評価コンサルト基準"><span class="header-section-number">1.5</span> 再評価・コンサルト基準</a></li>
-  </ul></li>
-  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">2</span> 参考文献（本章）</a></li>
+  <li><a href="#目的" id="toc-目的" class="nav-link active" data-scroll-target="#目的"><span class="header-section-number">1</span> 目的</a></li>
+  <li><a href="#見逃してはいけないred-flags" id="toc-見逃してはいけないred-flags" class="nav-link" data-scroll-target="#見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</a></li>
+  <li><a href="#よくある原因病棟での枠" id="toc-よくある原因病棟での枠" class="nav-link" data-scroll-target="#よくある原因病棟での枠"><span class="header-section-number">3</span> よくある原因（病棟での「枠」）</a></li>
+  <li><a href="#初期フロー内科一般" id="toc-初期フロー内科一般" class="nav-link" data-scroll-target="#初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</a></li>
+  <li><a href="#初期評価のポイント" id="toc-初期評価のポイント" class="nav-link" data-scroll-target="#初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</a></li>
+  <li><a href="#初期対応の考え方" id="toc-初期対応の考え方" class="nav-link" data-scroll-target="#初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</a></li>
+  <li><a href="#再評価コンサルト基準例" id="toc-再評価コンサルト基準例" class="nav-link" data-scroll-target="#再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</a></li>
+  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/kazuakifukushima/minor-trouble/issues" class="toc-action"><i class="bi bi-github"></i>問題を報告</a></li></ul></div></nav>
     </div>
@@ -429,7 +431,6 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../topics/symptoms/insomnia.html">③ よくある症状</a></li><li class="breadcrumb-item"><a href="../../topics/symptoms/nausea-vomiting.html">悪心・嘔吐（内科病棟）</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">悪心・嘔吐（内科病棟）</h1>
-<p class="subtitle lead">ドラフト</p>
 </div>
 
 
@@ -446,39 +447,96 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="目的" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="目的"><span class="header-section-number">1</span> 目的</h2>
+<p><strong>誤った対症療法だけで済ませる</strong>ことで見逃しやすい、<strong>閉塞・顱内圧亢進・代謝性急変</strong>などを先に除外するための初期フローです。</p>
+</section>
+<section id="見逃してはいけないred-flags" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</h2>
+<ul>
+<li><strong>意識障害</strong>、<strong>神経局在所見</strong>、<strong>激しい頭痛</strong>（頭蓋内病変の文脈）<br>
+</li>
+<li><strong>胆汁性嘔吐</strong>、<strong>腹部の高度膨満</strong>、<strong>排便ガス停止</strong>、<strong>反跳痛</strong>（閉塞・虚血の文脈）<br>
+</li>
+<li><strong>吐血</strong>（上消化管出血）<br>
+</li>
+<li><strong>ケトン体上昇・重度高血糖</strong>、<strong>重度電解質異常</strong>の文脈<br>
+</li>
+<li><strong>敗血症</strong>を疑う全身所見（発熱/低体温、低血圧、意識変容）</li>
+</ul>
+</section>
+<section id="よくある原因病棟での枠" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="よくある原因病棟での枠"><span class="header-section-number">3</span> よくある原因（病棟での「枠」）</h2>
+<ul>
+<li><strong>胃腸</strong>: 薬剤、胃炎、イレウス/閉塞、便秘、腸炎、膵炎疑いなど<br>
+</li>
+<li><strong>全身/代謝</strong>: 感染、腎不全、肝不全、電解質異常、脳梗塞/出血後、偏頭痛など<br>
+</li>
+<li><strong>脳</strong>: 頭蓋内圧亢進、後頭蓋窩病変（臨床像に依存—<strong>神経所見</strong>が重要）<br>
+</li>
+<li><strong>前庭/めまい</strong>: 回転性めまいなど（鑑別は診察所見に依存）</li>
+</ul>
+</section>
+<section id="初期フロー内科一般" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[悪心・嘔吐] --&gt; B[ABC・意識・血糖&lt;br/&gt;脱水徴候]
+  B --&gt; C{神経所見/頭痛&lt;br/&gt;意識障害?}
+  C --&gt;|Yes| N[神経・画像は方針に沿って&lt;br/&gt;早めに上級医]
+  C --&gt;|No| D{腹症・腸閉塞疑い?}
+  D --&gt;|Yes| S[外科/画像の早い相談&lt;br/&gt;経口摂取は止める]
+  D --&gt;|No| E[新規薬・オピオイド&lt;br/&gt;抗生物質などの文脈]
+  E --&gt; F[対症は最小限&lt;br/&gt;原因治療を優先]
+  F --&gt; G{改善?}
+  G --&gt;|No| H[電解質・腎機能&lt;br/&gt;再評価時刻を固定]
+  G --&gt;|No かつ悪化| N
+</pre>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">警告</span>執筆中
+<p></p></figure><p></p>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>本ページは構成案に基づく<strong>プレースホルダ</strong>です。腸閉塞・顱内圧亢進・代謝性急変などの Red flag を先に除外する設計で執筆予定です。</p>
 </div>
-</div>
-<section id="統一テンプレ予定" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="統一テンプレ予定"><span class="header-section-number">1</span> 統一テンプレ（予定）</h2>
-<section id="red-flags" class="level3" data-number="1.1">
-<h3 data-number="1.1" class="anchored" data-anchor-id="red-flags"><span class="header-section-number">1.1</span> Red flags</h3>
 </section>
-<section id="よくある原因" class="level3" data-number="1.2">
-<h3 data-number="1.2" class="anchored" data-anchor-id="よくある原因"><span class="header-section-number">1.2</span> よくある原因</h3>
+<section id="初期評価のポイント" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</h2>
+<ul>
+<li><strong>嘔吐物の性状</strong>（吐血、胆汁、食事か）、<strong>最終排便・ガス</strong>、<strong>腹部所見</strong>（鼓腸、圧痛、腸蠕動音）。<br>
+</li>
+<li><strong>神経</strong>: 瞳孔、片麻痺、眼振、小脳所見、頸部硬直（解釈は文脈で）。<br>
+</li>
+<li><strong>薬剤</strong>: 新規開始・増量（オピオイド、抗生物質、ケモ、GLP-1 など）。<br>
+</li>
+<li><strong>妊娠可能</strong>の場合は、施設ルールに沿って<strong>妊娠の除外</strong>も視野に（該当するなら）。</li>
+</ul>
 </section>
-<section id="初期評価" class="level3" data-number="1.3">
-<h3 data-number="1.3" class="anchored" data-anchor-id="初期評価"><span class="header-section-number">1.3</span> 初期評価</h3>
+<section id="初期対応の考え方" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</h2>
+<ul>
+<li><strong>閉塞・出血・頭蓋内急変</strong>が疑わしいとき、<strong>制吐薬だけで様子見</strong>しない。<br>
+</li>
+<li><strong>制吐薬</strong>は原因が比較的明確で、<strong>禁忌がない</strong>場合に限り検討（QT 延長、錐体外路症状、高齢などに注意）。<br>
+</li>
+<li><strong>経口再開</strong>は嘔吐コントロールと全身状態が整ってから。</li>
+</ul>
 </section>
-<section id="初期対応" class="level3" data-number="1.4">
-<h3 data-number="1.4" class="anchored" data-anchor-id="初期対応"><span class="header-section-number">1.4</span> 初期対応</h3>
+<section id="再評価コンサルト基準例" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</h2>
+<ul>
+<li>腹痛増強、腹膜刺激、持続嘔吐で<strong>脱水/電解質</strong>が進行<br>
+</li>
+<li>意識障害の進行、新規神経所見<br>
+</li>
+<li><strong>上消化管出血</strong>・<strong>閉塞</strong>が疑われる所見</li>
+</ul>
+<p>関連: <a href="../../topics/symptoms/constipation.html">便秘</a> / <a href="../../topics/symptoms/diarrhea.html">下痢</a> / <a href="../../topics/labs/sodium.html">電解質異常（Na）</a></p>
 </section>
-<section id="再評価コンサルト基準" class="level3" data-number="1.5">
-<h3 data-number="1.5" class="anchored" data-anchor-id="再評価コンサルト基準"><span class="header-section-number">1.5</span> 再評価・コンサルト基準</h3>
-</section>
-</section>
-<section id="参考文献本章" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">2</span> 参考文献（本章）</h2>
+<section id="参考文献本章" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</h2>
 <div id="refs" role="list">
 
 </div>

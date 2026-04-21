@@ -89,6 +89,9 @@ div.csl-indent {
     "search-label": "サーチ"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -411,7 +414,14 @@ div.csl-indent {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link active" data-scroll-target="#参考文献本章"><span class="header-section-number">1</span> 参考文献（本章）</a></li>
+  <li><a href="#目的" id="toc-目的" class="nav-link active" data-scroll-target="#目的"><span class="header-section-number">1</span> 目的</a></li>
+  <li><a href="#見逃してはいけないred-flags" id="toc-見逃してはいけないred-flags" class="nav-link" data-scroll-target="#見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</a></li>
+  <li><a href="#よくある原因装置まわり" id="toc-よくある原因装置まわり" class="nav-link" data-scroll-target="#よくある原因装置まわり"><span class="header-section-number">3</span> よくある原因（装置まわり）</a></li>
+  <li><a href="#初期フロー内科一般" id="toc-初期フロー内科一般" class="nav-link" data-scroll-target="#初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</a></li>
+  <li><a href="#初期評価のポイント" id="toc-初期評価のポイント" class="nav-link" data-scroll-target="#初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</a></li>
+  <li><a href="#初期対応の考え方" id="toc-初期対応の考え方" class="nav-link" data-scroll-target="#初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</a></li>
+  <li><a href="#再評価コンサルト基準例" id="toc-再評価コンサルト基準例" class="nav-link" data-scroll-target="#再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</a></li>
+  <li><a href="#参考文献本章" id="toc-参考文献本章" class="nav-link" data-scroll-target="#参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/kazuakifukushima/minor-trouble/issues" class="toc-action"><i class="bi bi-github"></i>問題を報告</a></li></ul></div></nav>
     </div>
@@ -421,7 +431,6 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../topics/devices/iv-troubles.html">④ デバイス関連</a></li><li class="breadcrumb-item"><a href="../../topics/devices/oxygen-therapy.html">酸素療法トラブル（内科病棟）</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">酸素療法トラブル（内科病棟）</h1>
-<p class="subtitle lead">ドラフト</p>
 </div>
 
 
@@ -438,36 +447,101 @@ div.csl-indent {
 </header>
 
 
+<section id="目的" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="目的"><span class="header-section-number">1</span> 目的</h2>
+<p><strong>装置・流量・インタフェース</strong>の問題で酸素化が足りないケースを整理し、<strong>低酸素の患者評価</strong>とセットで安全に切り分けます。</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">ノート</span>関連ページ
+<span class="screen-reader-only">ノート</span>関連
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>装置トラブル（流量・加湿器・インタフェース）と、低酸素そのものの評価は <strong><a href="../../topics/vitals/hypoxia.html">低酸素・呼吸苦</a></strong> とセットで読むと整理しやすいです。</p>
+<p>呼吸・酸素化の臨床評価は <strong><a href="../../topics/vitals/hypoxia.html">低酸素・呼吸苦</a></strong> が主です。本章は「装置まわり」を補います。</p>
 </div>
 </div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+</section>
+<section id="見逃してはいけないred-flags" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="見逃してはいけないred-flags"><span class="header-section-number">2</span> 見逃してはいけない（Red flags）</h2>
+<ul>
+<li><strong>酸素を最大にしてもSpO₂が目標に届かない</strong>（患者要因 vs 装置要因の両方を疑う）<br>
+</li>
+<li><strong>意識障害・努力呼吸</strong>（装置以前にABC）<br>
+</li>
+<li><strong>CO₂ナルコーシス</strong>を疑う背景（COPD 等）— <strong>高流量/NIV</strong>は適応とモニタが大きい</li>
+</ul>
+</section>
+<section id="よくある原因装置まわり" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="よくある原因装置まわり"><span class="header-section-number">3</span> よくある原因（装置まわり）</h2>
+<ul>
+<li><strong>鼻カニュラ位置ずれ、口呼吸</strong>（酸素が届いていない）<br>
+</li>
+<li><strong>加湿器・チューブ接続不良</strong>、<strong>酸素メーター/バルブ</strong><br>
+</li>
+<li><strong>マスク不適合</strong>（漏れ、サイズ）<br>
+</li>
+<li><strong>吸引・痰</strong>で気道が不安定</li>
+</ul>
+</section>
+<section id="初期フロー内科一般" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="初期フロー内科一般"><span class="header-section-number">4</span> 初期フロー（内科一般）</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[酸素療法の問題] --&gt; B[患者: 意識・呼吸作業&lt;br/&gt;SpO2トレンド]
+  B --&gt; C{臨床が重症?}
+  C --&gt;|Yes| U[上級医/ICU経路&lt;br/&gt;装置以前に評価]
+  C --&gt;|No| D[装置: 流量設定&lt;br/&gt;カニュラ/マスク装着]
+  D --&gt; E[接続・漏れ・加湿器]
+  E --&gt; F{改善?}
+  F --&gt;|No| G[別インタフェース検討&lt;br/&gt;は方針で]
+  G --&gt; U
+</pre>
 </div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">警告</span>執筆中
+<p></p></figure><p></p>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p><strong>プレースホルダ</strong>です。酸素デバイス別のトラブルシュートと安全（火気・在宅機器との違い等）を執筆予定です。</p>
 </div>
+</section>
+<section id="初期評価のポイント" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="初期評価のポイント"><span class="header-section-number">5</span> 初期評価のポイント</h2>
+<ul>
+<li><strong>処方どおりの酸素量</strong>が出ているか（スタッフとダブルチェック）。<br>
+</li>
+<li><strong>酸素療法の目標SpO₂</strong>（COPD では過剰酸素に注意）<span class="citation" data-cites="o2018oxygen">(<a href="#ref-o2018oxygen" role="doc-biblioref"><span class="nocase">Chu ほか</span> 2018年</a>)</span>。<br>
+</li>
+<li><strong>SpO₂波形</strong>の信頼性。</li>
+</ul>
+</section>
+<section id="初期対応の考え方" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="初期対応の考え方"><span class="header-section-number">6</span> 初期対応の考え方</h2>
+<ul>
+<li><strong>HFNC/NIV</strong>は開始・モニタ要件が大きい。<strong>独断で強める</strong>より相談。<br>
+</li>
+<li><strong>在宅酸素</strong>患者では装置が異なる—家族・メーカー情報も視野に。</li>
+</ul>
+</section>
+<section id="再評価コンサルト基準例" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="再評価コンサルト基準例"><span class="header-section-number">7</span> 再評価・コンサルト基準（例）</h2>
+<ul>
+<li>装置修正後も<strong>酸素需要が急増</strong><br>
+</li>
+<li><strong>高炭酸血症</strong>を疑う眠気・頭痛（文脈で）</li>
+</ul>
+<p>関連: <a href="../../topics/vitals/hypoxia.html">低酸素・呼吸苦</a> / <a href="../../topics/vitals/tachypnea.html">呼吸数増加</a></p>
+</section>
+<section id="参考文献本章" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">8</span> 参考文献（本章）</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-o2018oxygen" class="csl-entry" role="listitem">
+<span class="nocase">Chu, Derek K, Lisa H-Y Kim, Paul J Young, ほか</span>. 2018年. <span>「Oxygen targets for patients in the intensive care unit: A systematic review and meta-analysis」</span>. <em>The Lancet</em> 391 (10131): 1696–704. <a href="https://doi.org/10.1016/S0140-6736(18)30409-1">https://doi.org/10.1016/S0140-6736(18)30409-1</a>.
 </div>
-<section id="参考文献本章" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="参考文献本章"><span class="header-section-number">1</span> 参考文献（本章）</h2>
-<div id="refs" role="list">
-
 </div>
 
 
