@@ -1,4 +1,4 @@
-# Quarto Website — 病棟マイナートラブル（内科一般・研修医向け）
+# Quarto Website — 病棟マイナートラブル対応ハンドブック（初期研修医向け・内科一般）
 # 公開先: https://github.com/kazuakifukushima/minor-trouble
 project:
   type: website
@@ -11,24 +11,59 @@ execute:
 
 website:
   title: "病棟マイナートラブル（内科一般）"
-  description: "研修医向けの病棟対応フローと参考文献（教育用・個別診療の代替ではありません）"
+  description: "初期研修医向け・病棟対応フローと参考文献（教育用・個別診療の代替ではありません）"
   site-url: https://kazuakifukushima.github.io/minor-trouble/
   repo-url: https://github.com/kazuakifukushima/minor-trouble
   issue-url: https://github.com/kazuakifukushima/minor-trouble/issues
+  search: true
   sidebar:
     - title: "目次"
       style: docked
       contents:
         - index.qmd
-        - section: "トピック"
+        - section: "① 総論"
           contents:
-            - topics/overview.qmd
-            - topics/fever.qmd
-            - topics/hypoxia.qmd
-            - topics/constipation.qmd
-            - topics/diarrhea.qmd
-            - topics/insomnia.qmd
-            - topics/agitation.qmd
+            - topics/part01-principles.qmd
+        - section: "② バイタル異常"
+          contents:
+            - topics/vitals/fever.qmd
+            - topics/vitals/hypotension.qmd
+            - topics/vitals/tachycardia.qmd
+            - topics/vitals/tachypnea.qmd
+            - topics/vitals/hypoxia.qmd
+        - section: "③ よくある症状"
+          contents:
+            - topics/symptoms/insomnia.qmd
+            - topics/symptoms/constipation.qmd
+            - topics/symptoms/diarrhea.qmd
+            - topics/symptoms/nausea-vomiting.qmd
+            - topics/symptoms/pain.qmd
+            - topics/symptoms/delirium.qmd
+            - topics/symptoms/agitation.qmd
+            - topics/symptoms/appetite-loss.qmd
+            - topics/symptoms/edema.qmd
+            - topics/symptoms/rash.qmd
+        - section: "④ デバイス関連"
+          contents:
+            - topics/devices/iv-troubles.qmd
+            - topics/devices/cvc.qmd
+            - topics/devices/urinary-catheter.qmd
+            - topics/devices/drain.qmd
+            - topics/devices/oxygen-therapy.qmd
+        - section: "⑤ 検査値異常"
+          contents:
+            - topics/labs/sodium.qmd
+            - topics/labs/potassium.qmd
+            - topics/labs/creatinine.qmd
+            - topics/labs/anemia.qmd
+            - topics/labs/inflammation.qmd
+        - section: "⑥ ナイトシフト即応"
+          contents:
+            - topics/night-shift/bundle.qmd
+            - topics/night-shift/call-templates.qmd
+        - section: "⑦ 付録"
+          contents:
+            - topics/appendix/meds-and-tables.qmd
   navbar:
     left:
       - text: "ホーム"

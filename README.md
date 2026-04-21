@@ -1,6 +1,8 @@
 # minor-trouble（Quarto）
 
-内科一般病棟の「マイナートラブル」対応を、**Quarto Website**として整理するプロジェクトです（研修医向け・教育用）。
+内科一般病棟の「マイナートラブル」対応を、**Quarto Website**として整理するプロジェクトです（**初期研修医向け**・教育用）。
+
+構成は Obsidian の構成案に沿い、**①総論 → ⑦付録** のパート別サイドバーに整理しています。新規ページは `topics/TEMPLATE-topic.txt` を `.qmd` にコピーして作成します。
 
 ローカル開発フォルダ名は `quarto-minor-trouble` でも構いません。GitHub 上のリポジトリは **[kazuakifukushima/minor-trouble](https://github.com/kazuakifukushima/minor-trouble)** です。
 
