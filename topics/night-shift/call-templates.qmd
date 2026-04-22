@@ -47,7 +47,7 @@ subtitle: "ドラフト"
 
 ---
 
-詳細フローは各章へ: [発熱](../vitals/fever.qmd) / [血圧低下](../vitals/hypotension.qmd) / [せん妄・不穏・譫妄](../symptoms/agitation.qmd)
+詳細フローは各章へ: [発熱](../vitals/fever.qmd) / [血圧低下](../vitals/hypotension.qmd) / [せん妄・不穏](../symptoms/agitation.qmd)
 
 ## 参考文献（本章）
 
